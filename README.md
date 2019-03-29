@@ -12,4 +12,13 @@ necessary to have a properly licensed open source project.
 3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and niveristand-custom-device-wizard, and replace with content appropriate to your project.
 4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+This project template is a consolidated version of pre-existing project templates for creating custom devices. It includes the following templates:
+
+Asynchronous
+Inline HW Interface
+Inline HW Interface (Inline-Async)
+Inline Model Interface
+Inline Timing and Sync
+Asynchronous Timing and Sync
+
+The scripting code uses a LV Class-based design that allows you to easily add support for creating new custom device project templates.

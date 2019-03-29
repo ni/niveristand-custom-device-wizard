@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<MetaData>
+
+<ProjectTemplate>
+  <Title localize="yes">CONSOLIDATED NI VeriStand Custom Device</Title>
+  <MetaDataClass>NIVS_Consolidated_CDW_MetaDataObj/NIVS_Consolidated_CDW_MetaDataObj.lvclass</MetaDataClass>
+  <Description localize="yes">Creates a NI VeriStand custom device project.</Description>
+  <Filters localize="yes">NI VeriStand</Filters>
+  <Keywords localize="yes">NIVS;NI VeriStand;Custom Device</Keywords>
+  <LocationPath>NI VeriStand/Consolidated Custom Device</LocationPath>
+  <ProjectPath>Null.lvproj</ProjectPath>
+  <ListboxImagePath>Template Files/Veristand_icon_32x32.png</ListboxImagePath>
+  <DocumentationPath></DocumentationPath>
+  <CustomVIMode>AfterPage2NoUI</CustomVIMode>
+  <CustomVIPath>NIVS_Consolidated_CDW_MetaDataObj/AfterPage2_GenCD.vi</CustomVIPath>
+  <SortPriority>250</SortPriority>
+  <HidePrefix>True</HidePrefix>
+  <HideIconOverlay>True</HideIconOverlay>
+</ProjectTemplate>
+
+</MetaData>
