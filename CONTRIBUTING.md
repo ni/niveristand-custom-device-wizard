@@ -14,7 +14,14 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 # Getting Started
 
 - Use LabVIEW 2015 or later.
-- Sync the source into the [LabVIEW 20xx]\ProjectTemplates folder.
+- Sync the source into the [LabVIEW 20xx]\ProjectTemplates folder in the following manner:
+	- NI_VeriStand_Consolidated.xml into the "ProjectTemplates\MetaData" folder
+	- The following items into the "ProjectTemplates\Source\NI VeriStand\Consolidated Custom Device" folder:
+		- NI_VS_Consolidated_CDW_MetaDataObj
+		- Template Classes
+		- Template Files
+		- Null.lvproj
+		-Consolidated Custom Device.lvproj (only necessary for development)
 - Ensure the following dependent packages are installed:
 	- NI Compiled HTML Menu Tool 1.0.0.12 or later
 	- NI Keyed Array Library 2.0.0.11 or later

@@ -156,7 +156,6 @@
 			<Item Name="Handle SpecPage Project Name Change.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Handle SpecPage Project Name Change.vi"/>
 			<Item Name="HandleInnerVITabbing.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/HandleInnerVITabbing.vi"/>
 			<Item Name="Iterate Save Progress.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Iterate Save Progress.vi"/>
-			<Item Name="Load Help File.vi" Type="VI" URL="../Template Files/Load Help File.vi"/>
 			<Item Name="MetaDataObj.lvclass" Type="LVClass" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/MetaDataObj.lvclass"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -169,9 +168,6 @@
 			</Item>
 			<Item Name="Spec Page Interface.ctl" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/Spec Page Interface.ctl"/>
 			<Item Name="Stack Images.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/MetaDataObj/Stack Images.vi"/>
-			<Item Name="Untitled Project 9 Engine.lvlib" Type="Library" URL="../../../../../../../../Users/Localization Tester/Desktop/Untitled Project 9/Engine/Untitled Project 9 Engine.lvlib"/>
-			<Item Name="Untitled Project 9 Shared.lvlib" Type="Library" URL="../../../../../../../../Users/Localization Tester/Desktop/Untitled Project 9/Shared/Untitled Project 9 Shared.lvlib"/>
-			<Item Name="Untitled Project 9 System Explorer.lvlib" Type="Library" URL="../../../../../../../../Users/Localization Tester/Desktop/Untitled Project 9/System Explorer/Untitled Project 9 System Explorer.lvlib"/>
 			<Item Name="ValidateFilePath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/ValidateFilePath.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
