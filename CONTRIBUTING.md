@@ -21,7 +21,7 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 		- Template Classes
 		- Template Files
 		- Null.lvproj
-		-Consolidated Custom Device.lvproj (only necessary for development)
+		- Consolidated Custom Device.lvproj (only necessary for development)
 - Ensure the following dependent packages are installed:
 	- NI Compiled HTML Menu Tool 1.0.0.12 or later
 	- NI Keyed Array Library 2.0.0.11 or later
