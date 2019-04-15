@@ -13,11 +13,30 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-- TODO: include build steps here.
+- Use LabVIEW 2015 or later.
+- Sync the source into the [LabVIEW 20xx]\ProjectTemplates folder in the following manner:
+	- NI_VeriStand_Consolidated.xml into the "ProjectTemplates\MetaData" folder
+	- The following items into the "ProjectTemplates\Source\NI VeriStand\Consolidated Custom Device" folder:
+		- NI_VS_Consolidated_CDW_MetaDataObj
+		- Template Classes
+		- Template Files
+		- Null.lvproj
+		- Consolidated Custom Device.lvproj (only necessary for development)
+- Ensure the following dependent packages are installed:
+	- NI Compiled HTML Menu Tool 1.0.0.12 or later
+	- NI Keyed Array Library 2.0.0.11 or later
+	- NI String Tools Library 2.0.0.5 or later
+	- NI VeriStand .NET Assembly Binding Redirection Configuration Files 1.0.0.2 or later
+	- NI VeriStand Advanced SysDef API 1.1.1.6 or later
+	- NI VeriStand Custom Device Import and Export Tool 1.0.0.7 or later
+	- NI VeriStand Error API 1.0.0.3 or later
+	- NI Veristand Inline Async API 1.0.0.31 or later
+- Select File > Create Project in LabVIEW and select the "CONSOLIDATED NI VeriStand Custom Device" project template.
+
 
 # Testing
 
-- TODO: include testing steps here.
+- Create an instance of each of the custom device projects listed in the project template UI and ensure they are created properly without errors.
 
 # Developer Certificate of Origin (DCO)
 
