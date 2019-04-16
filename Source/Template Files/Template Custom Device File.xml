@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
     <eng>%MenuName</eng>
     <loc>%MenuName</loc>
@@ -13,53 +13,53 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>%InitVIPath</Path>
+      <Path>%InitVIPath</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
-		<SourceDistribution>
-			<Source>
-				<SupportedTarget>Windows</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>%WindowsCustomDeviceVIPath</Path>
-				</Source>
-				<RealTimeSystemDestination>%WindowsCustomDeviceVIRTPath</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Pharlap</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>%PharlapCustomDeviceVIPath</Path>
-				</Source>
-				<RealTimeSystemDestination>%PharlapCustomDeviceVIRTPath</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>VxWorks</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>%VxWorksCustomDeviceVIPath</Path>
-				</Source>
-				<RealTimeSystemDestination>%VxWorksCustomDeviceVIRTPath</RealTimeSystemDestination>
-			</Source>	
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>%LinuxARMCustomDeviceVIPath</Path>
-				</Source>
-				<RealTimeSystemDestination>%LinuxARMCustomDeviceVIRTPath</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_x64</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>%Linuxx64CustomDeviceVIPath</Path>
-				</Source>
-				<RealTimeSystemDestination>%Linuxx64CustomDeviceVIRTPath</RealTimeSystemDestination>
-			</Source>
-		</SourceDistribution>
-	</CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>Windows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>%WindowsCustomDeviceVIPath</Path>
+        </Source>
+        <RealTimeSystemDestination>%WindowsCustomDeviceVIRTPath</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Pharlap</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>%PharlapCustomDeviceVIPath</Path>
+        </Source>
+        <RealTimeSystemDestination>%PharlapCustomDeviceVIRTPath</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>VxWorks</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>%VxWorksCustomDeviceVIPath</Path>
+        </Source>
+        <RealTimeSystemDestination>%VxWorksCustomDeviceVIRTPath</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_32_ARM</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>%LinuxARMCustomDeviceVIPath</Path>
+        </Source>
+        <RealTimeSystemDestination>%LinuxARMCustomDeviceVIRTPath</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>%Linuxx64CustomDeviceVIPath</Path>
+        </Source>
+        <RealTimeSystemDestination>%Linuxx64CustomDeviceVIRTPath</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
   <Dependencies />
   <Pages>
     <Page>
@@ -69,12 +69,12 @@
       </Name>
       <GUID>%MainPageGUID</GUID>
       <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+      </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>%MainPageVIPath</Path>
+        <Path>%MainPageVIPath</Path>
       </Item2Launch>
     </Page>
     %ExtraPages
