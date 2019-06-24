@@ -1,0 +1,8 @@
+[archive]
+build_output_dir = 'ProjectTemplate'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
+
+[package]
+type = 'nipkg'
+payload_dir = 'ProjectTemplate'
+install_destination = 'ni-paths-LV{labview_version}DIR\ProjectTemplates'
