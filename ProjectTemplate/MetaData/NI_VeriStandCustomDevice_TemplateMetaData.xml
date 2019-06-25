@@ -7,7 +7,7 @@
   <Description localize="yes">Creates a NI VeriStand custom device project.</Description>
   <Filters localize="yes">NI VeriStand</Filters>
   <Keywords localize="yes">NIVS;NI VeriStand;Custom Device</Keywords>
-  <LocationPath>NI VeriStand/Consolidated Custom Device</LocationPath>
+  <LocationPath>NI VeriStand/Custom Device</LocationPath>
   <ProjectPath>Null.lvproj</ProjectPath>
   <ListboxImagePath>Template Files/Veristand_icon_32x32.png</ListboxImagePath>
   <DocumentationPath></DocumentationPath>
