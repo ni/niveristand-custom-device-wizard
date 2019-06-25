@@ -15,8 +15,8 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 - Use LabVIEW 2016 or later.
 - Sync the source into the [LabVIEW 20xx]\ProjectTemplates folder in the following manner:
-	- "ProjectTemplate\MetaData\NI_VeriStand_Consolidated.xml" into the "ProjectTemplates\MetaData" folder
-	- "ProjectTemplate\Source\NI VeriStand\Consolidated Custom Device\*" into the "ProjectTemplates\Source\NI VeriStand\Consolidated Custom Device" folder:
+	- "ProjectTemplate\MetaData\NI_VeriStandCustomDevice_TemplateMetaData.xml" into the "ProjectTemplates\MetaData" folder
+	- "ProjectTemplate\Source\NI VeriStand\Custom Device\*" into the "ProjectTemplates\Source\NI VeriStand\Custom Device" folder:
 		- NI_VS_Consolidated_CDW_MetaDataObj
 		- Template Classes
 		- Template Files
