@@ -2,7 +2,7 @@
 build_output_dir = 'ProjectTemplate'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
 
-[[projects.cd]
+[projects.cd]
 path = 'ProjectTemplate\Source\NI VeriStand\Custom Device\Null.lvproj'
 
 [package]
