@@ -13,7 +13,7 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Getting Started
 
-- Use LabVIEW 2016 or later.
+- Use LabVIEW 2017 or later.
 - Sync the source into the [LabVIEW 20xx]\ProjectTemplates folder in the following manner:
 	- "ProjectTemplate\MetaData\NI_VeriStandCustomDevice_TemplateMetaData.xml" into the "ProjectTemplates\MetaData" folder
 	- "ProjectTemplate\Source\NI VeriStand\Custom Device\*" into the "ProjectTemplates\Source\NI VeriStand\Custom Device" folder:
