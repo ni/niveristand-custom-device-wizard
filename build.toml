@@ -9,3 +9,6 @@ path = 'ProjectTemplate\Source\NI VeriStand\Custom Device\Null.lvproj'
 type = 'nipkg'
 payload_dir = 'ProjectTemplate'
 install_destination = 'ni-paths-LV{labview_version}DIR\ProjectTemplates'
+
+[notification]
+type = 'teams'
