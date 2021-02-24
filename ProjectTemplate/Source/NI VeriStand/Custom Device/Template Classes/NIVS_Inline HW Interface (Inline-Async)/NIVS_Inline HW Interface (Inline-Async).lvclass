@@ -56,6 +56,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 	</Item>
+	<Item Name="Properties To Create.vi" Type="VI" URL="../Properties To Create.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'O!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%4G&amp;N:1!!#E"4"6:B&lt;(6F!!Z!-0````]%6(FQ:1!!;1$R!!!!!!!!!!)J4EF75V^$&lt;WZT&lt;WRJ:'&amp;U:72@1U288UVF&gt;'&amp;%982B4W*K,GRW9WRB=X-95(*P='6S&gt;(EA37ZG&lt;X*N982J&lt;WYO9X2M!"Z!5!!$!!5!"A!($6"S&lt;X"F=H2Z)%FO:G]!'%"!!!(`````!!A+5(*P='6S&gt;'FF=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"+1(!!(A!!-3^/36:48UFO&lt;'FO:3")6S"*&lt;H2F=G:B9W5A+%FO&lt;'FO:3V"=XFO9SEO&lt;(:D&lt;'&amp;T=Q!/1U1A6'6N='RB&gt;'5A;7Y!!&amp;1!]!!-!!-!"!!*!!1!"!!%!!1!"!!+!!1!"!!,!A!!?!!!$1A!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
 	<Item Name="XML Template File.vi" Type="VI" URL="../XML Template File.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$!!!!!"!!%!!!!'E!S`````R&amp;945QA6'6N='RB&gt;'5A2GFM:1"'1(!!(A!!-3^/36:48UFO&lt;'FO:3")6S"*&lt;H2F=G:B9W5A+%FO&lt;'FO:3V"=XFO9SEO&lt;(:D&lt;'&amp;T=Q!,1U1A6'6N='RB&gt;'5!6!$Q!!Q!!!!!!!%!!!!!!!!!!!!!!!!!!!!!!!)$!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!$!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
