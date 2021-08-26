@@ -16,9 +16,9 @@ The scripting code uses a LabVIEW Class-based design that allows you to easily a
 - [VeriStand 2017 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
 - [LabVIEW 2017 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html#411240)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
-  - Latest [released package](https://github.com/ni/niveristand-custom-device-development-tools/releases)
-  - [HTML Workshop](https://github.com/ni/niveristand-custom-device-development-tools#external)
-- [Latest release of the Custom Device Wizard](https://github.com/ni/niveristand-custom-device-wizard/releases)
+  - Latest [released package](https://github.com/ni/niveristand-custom-device-development-tools/releases/latest)
+  - [HTML Workshop](https://github.com/ni/niveristand-custom-device-development-tools/issues/38)
+- [Latest release of the Custom Device Wizard](https://github.com/ni/niveristand-custom-device-wizard/releases/latest)
 
 ## Git History & Rebasing Policy
 
