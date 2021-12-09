@@ -1,0 +1,36 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled File=TemplatePPL.chm
+Default Topic=HTML Help Source\Main.htm
+Display compile progress=No
+Language=0x409 English (United States)
+Title=TemplatePPL
+
+[FILES]
+HTML Help Source\css\expandable_tree.css
+HTML Help Source\css\VSsystemexplorer.css
+HTML Help Source\js\arraytools.js
+HTML Help Source\js\checkinstalled.js
+HTML Help Source\js\common.js
+HTML Help Source\js\cssframes.js
+HTML Help Source\js\domtools.js
+HTML Help Source\js\dynamiccontent.js
+HTML Help Source\js\dynamicjumps.js
+HTML Help Source\js\dynamiclinks.js
+HTML Help Source\js\expandable_tree.js
+HTML Help Source\js\feedbacklink.js
+HTML Help Source\js\Globals.js
+HTML Help Source\js\initpagedyn.js
+HTML Help Source\js\launchhelp.js
+HTML Help Source\js\linking.js
+HTML Help Source\js\objectnames.js
+HTML Help Source\js\osbrowser.js
+HTML Help Source\js\pdf.js
+HTML Help Source\js\polyviselect.js
+HTML Help Source\js\stylesheets.js
+HTML Help Source\js\variables.js
+HTML Help Source\js\web.js
+HTML Help Source\ExtraPage1.htm
+HTML Help Source\ExtraPage2.htm
+HTML Help Source\ExtraPage3.htm
+HTML Help Source\Main.htm
