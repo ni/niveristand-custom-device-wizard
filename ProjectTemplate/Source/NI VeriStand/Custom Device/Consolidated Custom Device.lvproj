@@ -22,14 +22,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Template Classes" Type="Folder">
+			<Item Name="Base Classes" Type="Folder">
+				<Item Name="NIVS_CD Template.lvclass" Type="LVClass" URL="../Template Classes/NIVS_CD Template/NIVS_CD Template.lvclass"/>
+				<Item Name="NIVS_PPLCD Template.lvclass" Type="LVClass" URL="../Template Classes/NIVS_PPLCD Template/NIVS_PPLCD Template.lvclass"/>
+			</Item>
+			<Item Name="PPL Custom Devices" Type="Folder">
+				<Item Name="NIVS_PPL_Inline HW Interface (Inline-Async).lvclass" Type="LVClass" URL="../Template Classes/NIVS_PPL_Inline HW Interface (Inline-Async)/NIVS_PPL_Inline HW Interface (Inline-Async).lvclass"/>
+			</Item>
 			<Item Name="NIVS_Asynchronous Timing and Sync.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Asynchronous Timing and Sync/NIVS_Asynchronous Timing and Sync.lvclass"/>
 			<Item Name="NIVS_Asynchronous.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Asynchronous/NIVS_Asynchronous.lvclass"/>
-			<Item Name="NIVS_CD Template.lvclass" Type="LVClass" URL="../Template Classes/NIVS_CD Template/NIVS_CD Template.lvclass"/>
 			<Item Name="NIVS_Inline HW Interface (Inline-Async).lvclass" Type="LVClass" URL="../Template Classes/NIVS_Inline HW Interface (Inline-Async)/NIVS_Inline HW Interface (Inline-Async).lvclass"/>
 			<Item Name="NIVS_Inline HW Interface.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Inline HW Interface/NIVS_Inline HW Interface.lvclass"/>
 			<Item Name="NIVS_Inline Model Interface.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Inline Model Interface/NIVS_Inline Model Interface.lvclass"/>
 			<Item Name="NIVS_Inline Timing and Sync.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Inline Timing and Sync/NIVS_Inline Timing and Sync.lvclass"/>
-			<Item Name="NIVS_PPL_Inline HW Interface (Inline-Async).lvclass" Type="LVClass" URL="../Template Classes/NIVS_PPL_Inline HW Interface (Inline-Async)/NIVS_PPL_Inline HW Interface (Inline-Async).lvclass"/>
 			<Item Name="NIVS_Timing and Sync (Abstract).lvclass" Type="LVClass" URL="../Template Classes/NIVS_Timing and Sync (Abstract)/NIVS_Timing and Sync (Abstract).lvclass"/>
 		</Item>
 		<Item Name="Template Files" Type="Folder" URL="../Template Files">
