@@ -222,6 +222,7 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
+      <Item Name="%SharedLibraryFileName%" Type="Library" URL="../%SharedLibraryFolderName%/%SharedLibraryFileName%"/>
       <Item Name="%EngineLibraryFileName%" Type="Library" URL="../%EngineLibraryFolderName%/%EngineLibraryFileName%"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
