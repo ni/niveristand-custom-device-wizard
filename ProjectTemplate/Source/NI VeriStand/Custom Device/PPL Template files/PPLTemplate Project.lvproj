@@ -26,28 +26,23 @@
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
-		<Item Name="Utility" Type="Folder">
-			<Item Name="LVLIBP CD XML Updater" Type="Folder">
-				<Item Name="LVLIBP CD XML Updater.lvlib" Type="Library" URL="../Utility/LVLIBP CD XML Updater/LVLIBP CD XML Updater.lvlib"/>
+		<Item Name="%UtilityFolderName%" Type="Folder">
+			<Item Name="%XMLUpdaterFolderName%" Type="Folder">
+				<Item Name="%XMLUpdaterLibraryFileName%" Type="Library" URL="../%UtilityFolderName%/%XMLUpdaterFolderName%/%XMLUpdaterLibraryFileName%"/>
 			</Item>
-			<Item Name="PPL CD XML Updater.vi" Type="VI" URL="../Utility/PPL CD XML Updater.vi"/>
-			<Item Name="PPL Pre-Build CHM Build.vi" Type="VI" URL="../Utility/PPL Pre-Build CHM Build.vi"/>
+			<Item Name="%PPLXMLUpdaterFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLXMLUpdaterFileName%"/>
+			<Item Name="%PPLCHMPreBuildFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLCHMPreBuildFileName%"/>
 		</Item>
-		<Item Name="Custom Device TemplatePPL.xml" Type="Document" URL="../Custom Device TemplatePPL.xml"/>
-		<Item Name="TemplatePPL Engine.lvlib" Type="Library" URL="../Engine/TemplatePPL Engine.lvlib"/>
-		<Item Name="TemplatePPL Shared.lvlib" Type="Library" URL="../Shared/TemplatePPL Shared.lvlib"/>
-		<Item Name="TemplatePPL System Explorer.lvlib" Type="Library" URL="../System Explorer/TemplatePPL System Explorer.lvlib"/>
+		<Item Name="%XMLCustomDeviceFileName%" Type="Document" URL="../%XMLCustomDeviceFileName%"/>
+		<Item Name="%EngineLibraryFileName%" Type="Library" URL="../%EngineLibraryFolderName%/%EngineLibraryFileName%"/>
+		<Item Name="%SharedLibraryFileName%" Type="Library" URL="../%SharedLibraryFolderName%/%SharedLibraryFileName%"/>
+		<Item Name="%SystemExplorerLibraryFileName%" Type="Library" URL="../%SystemExplorerLibraryFolderName%/%SystemExplorerLibraryFileName%"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -55,70 +50,35 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
-				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="CHM Generator.lvclass" Type="LVClass" URL="../../vi.lib/NI/Compiled HTML Menu Tool/CHM Generator/CHM Generator.lvclass"/>
-			<Item Name="Compile CHM.vi" Type="VI" URL="../../vi.lib/NI/Compiled HTML Menu Tool/CHM Generator/Compile CHM.vi"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="New.vi" Type="VI" URL="../../vi.lib/NI/Compiled HTML Menu Tool/CHM Generator/New.vi"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release PPL" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -128,26 +88,26 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/TemplatePPL/Windows</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/%CustomDeviceName%/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/PPL CD XML Updater.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/PPL Pre-Build CHM Build.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/%UtilityFolderName%/%PPLXMLUpdaterFileName%</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/%UtilityFolderName%/%PPLCHMPreBuildFileName%</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C7B72E93-8B50-487C-8B64-9F99DA0DED33}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">0</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">TemplatePPL Configuration.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/TemplatePPL/Windows/TemplatePPL Configuration.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">%SystemExplorerPPLFileName%</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/%CustomDeviceName%/Windows/%SystemExplorerPPLFileName%</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/TemplatePPL</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/%CustomDeviceName%</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].itemID" Type="Str">{31E7D456-84CA-4D14-BBEA-14F44C4FE1FB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TemplatePPL System Explorer.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/%SystemExplorerLibraryFileName%</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -155,7 +115,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Custom Device TemplatePPL.xml</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/%XMLCustomDeviceFileName%</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Configuration Release PPL</Property>
@@ -163,7 +123,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
 				<Property Name="TgtF_productName" Type="Str">Configuration Release PPL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0602A8EF-5C4F-4397-84CC-BBD1C0A64EDB}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TemplatePPL Configuration.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">%CustomDeviceName% Configuration.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Engine Release PPL" Type="Packed Library">
@@ -174,25 +134,25 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/TemplatePPL/Windows</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/%CustomDeviceName%/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/PPL CD XML Updater.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/%UtilityFolderName%/%PPLXMLUpdaterFileName%</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{374428A7-476B-4605-B75D-2BC1D56CF4D1}</Property>
 				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">TemplatePPL Engine Windows.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/TemplatePPL/Windows/TemplatePPL Engine Windows.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">%EngineLLBWindowsFileName%</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/%CustomDeviceName%/Windows/%EngineLLBWindowsFileName%</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/TemplatePPL/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/%CustomDeviceName%/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].itemID" Type="Str">{31E7D456-84CA-4D14-BBEA-14F44C4FE1FB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TemplatePPL Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/%EngineLibraryFileName%</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -209,7 +169,7 @@
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
-	</Item>
+   </Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
@@ -262,7 +222,7 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
-		<Item Name="TemplatePPL Engine.lvlib" Type="Library" URL="../Engine/TemplatePPL Engine.lvlib"/>
+      <Item Name="%EngineLibraryFileName%" Type="Library" URL="../%EngineLibraryFolderName%/%EngineLibraryFileName%"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -321,16 +281,16 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/TemplatePPL</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/%CustomDeviceName%</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/PPL CD XML Updater.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/%UtilityFolderName%/%PPLXMLUpdaterFileName%</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E683DAF-0A6A-403D-8435-128124805F88}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
 				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">TemplatePPL Engine Linux64.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_x64/TemplatePPL Engine Linux64.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">%EnginePPLLinux64FileName%</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/%EnginePPLLinux64FileName%</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -341,7 +301,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{F5A93CC1-F009-4BD4-A05F-8FE2DE8CA99B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/TemplatePPL Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/%EngineLibraryFileName%</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -354,7 +314,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
 				<Property Name="TgtF_productName" Type="Str">Engine Release PPL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{44D95003-1282-4C56-AB73-30CE6F46B4E4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TemplatePPL Engine Linux64.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">%EnginePPLLinux64FileName%</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
