@@ -30,8 +30,6 @@
 			<Item Name="LVLIBP CD XML Updater" Type="Folder">
 				<Item Name="LVLIBP CD XML Updater.lvlib" Type="Library" URL="../Utility/LVLIBP CD XML Updater/LVLIBP CD XML Updater.lvlib"/>
 			</Item>
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
-			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 			<Item Name="PPL CD XML Updater.vi" Type="VI" URL="../Utility/PPL CD XML Updater.vi"/>
 			<Item Name="PPL Pre-Build CHM Build.vi" Type="VI" URL="../Utility/PPL Pre-Build CHM Build.vi"/>
 		</Item>
@@ -136,7 +134,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/PPL CD XML Updater.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/PPL Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C7B72E93-8B50-487C-8B64-9F99DA0DED33}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TemplatePPL Configuration.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/TemplatePPL/Windows/TemplatePPL Configuration.lvlibp</Property>
@@ -181,7 +179,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/PPL CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{374428A7-476B-4605-B75D-2BC1D56CF4D1}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TemplatePPL Engine Windows.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/TemplatePPL/Windows/TemplatePPL Engine Windows.lvlibp</Property>
@@ -329,7 +327,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/PPL CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1E683DAF-0A6A-403D-8435-128124805F88}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TemplatePPL Engine Linux64.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/TemplatePPL Engine Linux64.lvlibp</Property>
