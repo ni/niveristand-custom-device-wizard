@@ -29,6 +29,7 @@
 			<Item Name="NIVS_Inline HW Interface.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Inline HW Interface/NIVS_Inline HW Interface.lvclass"/>
 			<Item Name="NIVS_Inline Model Interface.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Inline Model Interface/NIVS_Inline Model Interface.lvclass"/>
 			<Item Name="NIVS_Inline Timing and Sync.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Inline Timing and Sync/NIVS_Inline Timing and Sync.lvclass"/>
+			<Item Name="NIVS_PPL_Inline HW Interface (Inline-Async).lvclass" Type="LVClass" URL="../Template Classes/NIVS_PPL_Inline HW Interface (Inline-Async)/NIVS_PPL_Inline HW Interface (Inline-Async).lvclass"/>
 			<Item Name="NIVS_Timing and Sync (Abstract).lvclass" Type="LVClass" URL="../Template Classes/NIVS_Timing and Sync (Abstract)/NIVS_Timing and Sync (Abstract).lvclass"/>
 		</Item>
 		<Item Name="Template Files" Type="Folder" URL="../Template Files">
