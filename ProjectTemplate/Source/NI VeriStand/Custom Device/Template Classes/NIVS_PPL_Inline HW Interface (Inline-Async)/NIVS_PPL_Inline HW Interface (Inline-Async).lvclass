@@ -25,6 +25,15 @@
 	<Item Name="NIVS_PPL_Inline HW Interface (Inline-Async).ctl" Type="Class Private Data" URL="NIVS_PPL_Inline HW Interface (Inline-Async).ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Compiled Settings Name.vi" Type="VI" URL="../Compiled Settings Name.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$/!!!!"!!%!!!!)%!Q`````R:$&lt;WVQ;7RF:#"4:82U;7ZH=S"/97VF!!"/1(!!(A!!.4./36:48V"14&amp;^*&lt;GRJ&lt;G5A3&amp;=A37ZU:8*G97.F)#B*&lt;GRJ&lt;G5N18.Z&lt;G-J,GRW9WRB=X-!$E.%)&amp;2F&lt;8"M982F)'FO!!"5!0!!$!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!!!A)!!(A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!"!!-!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+	</Item>
 	<Item Name="Get Name.vi" Type="VI" URL="../Get Name.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#[!!!!"!!%!!!!%%!Q`````Q:4&gt;(*J&lt;G=!!%J!=!!?!!!V-UZ*6F.@5&amp;"-8UFO&lt;'FO:3")6S"*&lt;H2F=G:B9W5A+%FO&lt;'FO:3V"=XFO9SEO&lt;(:D&lt;'&amp;T=Q!,1U1A6'6N='RB&gt;'5!6!$Q!!Q!!!!!!!%!!!!!!!!!!!!!!!!!!!!!!!)#!!"Y!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!$!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
