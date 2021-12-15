@@ -13,7 +13,7 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-      <Path>%PPLInitVIPath</Path>
+      <Path>%InitVIPath</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -22,17 +22,17 @@
         <SupportedTarget>Windows</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>%PPLWindowsCustomDeviceVIPath</Path>
+          <Path>%WindowsCustomDeviceVIPath</Path>
         </Source>
-        <RealTimeSystemDestination>%PPLWindowsCustomDeviceVIRTPath</RealTimeSystemDestination>
+        <RealTimeSystemDestination>%WindowsCustomDeviceVIRTPath</RealTimeSystemDestination>
       </Source>
       <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
-          <Path>%PPLLinuxx64CustomDeviceVIPath</Path>
+          <Path>%Linuxx64CustomDeviceVIPath</Path>
         </Source>
-        <RealTimeSystemDestination>%PPLLinuxx64CustomDeviceVIRTPath</RealTimeSystemDestination>
+        <RealTimeSystemDestination>%Linuxx64CustomDeviceVIRTPath</RealTimeSystemDestination>
       </Source>
     </SourceDistribution>
   </CustomDeviceVI>
@@ -50,7 +50,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>%PPLMainPageVIPath</Path>
+        <Path>%MainPageVIPath</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -63,7 +63,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>%PPLExportConfigurationRTMPath</Path>
+            <Path>%ExportConfigurationRTMPath</Path>
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
@@ -96,7 +96,7 @@
       </ButtonList>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>%PPLActionVICompilePath</Path>
+        <Path>%ActionVICompilePath</Path>
       </ActionVIOnCompile>
     </Page>
     %ExtraPages
