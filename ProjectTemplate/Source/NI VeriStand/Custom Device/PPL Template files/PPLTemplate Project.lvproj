@@ -27,9 +27,9 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="%UtilityFolderName%" Type="Folder">
-			<Item Name="%XMLUpdaterFolderName%" Type="Folder">
-				<Item Name="%XMLUpdaterLibraryFileName%" Type="Library" URL="../%UtilityFolderName%/%XMLUpdaterFolderName%/%XMLUpdaterLibraryFileName%"/>
-			</Item>
+         <Item Name="%XMLUpdaterFolderName%" Type="Folder">
+            <Item Name="%XMLUpdaterLibraryFileName%" Type="Library" URL="../%UtilityFolderName%/%XMLUpdaterFolderName%/%XMLUpdaterLibraryFileName%"/>
+         </Item>
 			<Item Name="%PPLXMLUpdaterFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLXMLUpdaterFileName%"/>
 			<Item Name="%PPLCHMPreBuildFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLCHMPreBuildFileName%"/>
 		</Item>
@@ -141,8 +141,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{374428A7-476B-4605-B75D-2BC1D56CF4D1}</Property>
 				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">%EngineLLBWindowsFileName%</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/%CustomDeviceName%/Windows/%EngineLLBWindowsFileName%</Property>
+				<Property Name="Destination[0].destName" Type="Str">%EnginePPLWindowsFileName%</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/%CustomDeviceName%/Windows/%EnginePPLWindowsFileName%</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -165,7 +165,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
 				<Property Name="TgtF_productName" Type="Str">Engine Release PPL</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EE1564C2-27E8-4B11-867E-70B75163A68B}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TemplatePPL Engine Windows.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">%EnginePPLWindowsFileName%</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
