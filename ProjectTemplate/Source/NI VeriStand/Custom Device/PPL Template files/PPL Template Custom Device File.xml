@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>%MenuName</eng>
+    <loc>%MenuName</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>%Type</Type>
+  <MaxOccurrence>%Occurrences</MaxOccurrence>
+  <MainPageGUID>%MainPageGUID</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+      <Path>%InitVIPath</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>Windows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>%WindowsCustomDeviceVIPath</Path>
+        </Source>
+        <RealTimeSystemDestination>%WindowsCustomDeviceVIRTPath</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>%Linuxx64CustomDeviceVIPath</Path>
+        </Source>
+        <RealTimeSystemDestination>%Linuxx64CustomDeviceVIRTPath</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>%Name</eng>
+        <loc>%Name</loc>
+      </Name>
+      <GUID>%MainPageGUID</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>%MainPageVIPath</Path>
+      </Item2Launch>
+    </Page>
+    %ExtraPages
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
