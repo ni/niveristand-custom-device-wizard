@@ -52,6 +52,52 @@
         <Type>To Common Doc Dir</Type>
         <Path>%MainPageVIPath</Path>
       </Item2Launch>
+	  <RunTimeMenu>
+        <MenuItem>
+          <GUID>%ExportConfigurationGUID</GUID>
+          <Type>Action</Type>
+          <Execution>silent</Execution>
+          <Name>
+            <eng>Export Configuration</eng>
+            <loc>Export Configuration</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>%ExportConfigurationRTMPath</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>%ExportConfigurationGUID-Button</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\Export.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>%ExportConfigurationGUID</ReferencedGUID>
+          <ButtonText>
+            <eng>Export Configuration</eng>
+            <loc>Export Configuration</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Export Configuration</eng>
+            <loc>Export Configuration</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Export Custom Device Configuration</eng>
+            <loc>Export Custom Device Configuration</loc>
+          </TipStrip>
+          <Documentation>
+            <eng>Export Custom Device Configuration</eng>
+            <loc>Export Custom Device Configuration</loc>
+          </Documentation>
+        </Button>
+      </ButtonList>			   
+	  <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>%ActionVICompilePath</Path>
+      </ActionVIOnCompile>			   
     </Page>
     %ExtraPages
   </Pages>
