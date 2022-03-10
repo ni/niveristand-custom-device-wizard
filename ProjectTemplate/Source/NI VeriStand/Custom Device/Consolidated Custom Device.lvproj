@@ -31,6 +31,7 @@
 			</Item>
 			<Item Name="PPL Custom Devices" Type="Folder">
 				<Item Name="NIVS_PPL_Inline HW Interface (Inline-Async).lvclass" Type="LVClass" URL="../Template Classes/NIVS_PPL_Inline HW Interface (Inline-Async)/NIVS_PPL_Inline HW Interface (Inline-Async).lvclass"/>
+				<Item Name="NIVS_PPL_Inline HW Interface.lvclass" Type="LVClass" URL="../Template Classes/NIVS_PPL_Inline HW Interface/NIVS_PPL_Inline HW Interface.lvclass"/>
 			</Item>
 			<Item Name="NIVS_Asynchronous Timing and Sync.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Asynchronous Timing and Sync/NIVS_Asynchronous Timing and Sync.lvclass"/>
 			<Item Name="NIVS_Asynchronous.lvclass" Type="LVClass" URL="../Template Classes/NIVS_Asynchronous/NIVS_Asynchronous.lvclass"/>
