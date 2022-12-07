@@ -3,8 +3,8 @@
 @Library('vs-build-tools') _
 
 def lvVersions = [
-  32 : ['2019', '2020'],
-  64 : ['2021']
+  32 : ['2020'],
+  64 : ['2021', '2023']
 ]
 
 diffPipeline(lvVersions)
