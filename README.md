@@ -11,10 +11,14 @@ This project template is a consolidated version of pre-existing project template
 
 The scripting code uses a LabVIEW Class-based design that allows you to easily add support for creating new custom device project templates.
 
+## LabVIEW Version
+
+The source for this repository is written in LabVIEW 2020.
+
 ## Dependencies
 
-- [VeriStand 2019 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html)
-- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
   - Latest [released package](https://github.com/ni/niveristand-custom-device-development-tools/releases/latest)
   - [HTML Workshop](https://github.com/ni/niveristand-custom-device-development-tools/issues/38)

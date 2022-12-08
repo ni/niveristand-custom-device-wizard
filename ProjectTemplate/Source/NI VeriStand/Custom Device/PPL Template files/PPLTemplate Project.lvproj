@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -19,22 +19,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="%UtilityFolderName%" Type="Folder">
+			<Item Name="%XMLUpdaterFolderName%" Type="Folder">
+				<Item Name="%XMLUpdaterLibraryFileName%" Type="Library" URL="../%UtilityFolderName%/%XMLUpdaterFolderName%/%XMLUpdaterLibraryFileName%"/>
+			</Item>
+			<Item Name="%PPLCHMPreBuildFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLCHMPreBuildFileName%"/>
+			<Item Name="%PPLXMLUpdaterFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLXMLUpdaterFileName%"/>
+		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
-		<Item Name="%UtilityFolderName%" Type="Folder">
-         <Item Name="%XMLUpdaterFolderName%" Type="Folder">
-            <Item Name="%XMLUpdaterLibraryFileName%" Type="Library" URL="../%UtilityFolderName%/%XMLUpdaterFolderName%/%XMLUpdaterLibraryFileName%"/>
-         </Item>
-			<Item Name="%PPLXMLUpdaterFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLXMLUpdaterFileName%"/>
-			<Item Name="%PPLCHMPreBuildFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLCHMPreBuildFileName%"/>
-		</Item>
-		<Item Name="%XMLCustomDeviceFileName%" Type="Document" URL="../%XMLCustomDeviceFileName%"/>
 		<Item Name="%EngineLibraryFileName%" Type="Library" URL="../%EngineLibraryFolderName%/%EngineLibraryFileName%"/>
 		<Item Name="%SharedLibraryFileName%" Type="Library" URL="../%SharedLibraryFolderName%/%SharedLibraryFileName%"/>
 		<Item Name="%SystemExplorerLibraryFileName%" Type="Library" URL="../%SystemExplorerLibraryFolderName%/%SystemExplorerLibraryFileName%"/>
+		<Item Name="%XMLCustomDeviceFileName%" Type="Document" URL="../%XMLCustomDeviceFileName%"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -74,8 +75,7 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release PPL" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -166,7 +166,7 @@
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
-   </Item>
+	</Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
@@ -219,8 +219,8 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
-      <Item Name="%SharedLibraryFileName%" Type="Library" URL="../%SharedLibraryFolderName%/%SharedLibraryFileName%"/>
-      <Item Name="%EngineLibraryFileName%" Type="Library" URL="../%EngineLibraryFolderName%/%EngineLibraryFileName%"/>
+		<Item Name="%EngineLibraryFileName%" Type="Library" URL="../%EngineLibraryFolderName%/%EngineLibraryFileName%"/>
+		<Item Name="%SharedLibraryFileName%" Type="Library" URL="../%SharedLibraryFolderName%/%SharedLibraryFileName%"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -228,7 +228,6 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -247,7 +246,6 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/data/NIVeristand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -259,17 +257,11 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="TemplatePPL Shared.lvlib" Type="Library" URL="../Shared/TemplatePPL Shared.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release PPL" Type="Packed Library">
