@@ -27,30 +27,6 @@
         <RealTimeSystemDestination>%WindowsCustomDeviceVIRTPath</RealTimeSystemDestination>
       </Source>
       <Source>
-        <SupportedTarget>Pharlap</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>%PharlapCustomDeviceVIPath</Path>
-        </Source>
-        <RealTimeSystemDestination>%PharlapCustomDeviceVIRTPath</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>VxWorks</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>%VxWorksCustomDeviceVIPath</Path>
-        </Source>
-        <RealTimeSystemDestination>%VxWorksCustomDeviceVIRTPath</RealTimeSystemDestination>
-      </Source>
-      <Source>
-        <SupportedTarget>Linux_32_ARM</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>%LinuxARMCustomDeviceVIPath</Path>
-        </Source>
-        <RealTimeSystemDestination>%LinuxARMCustomDeviceVIRTPath</RealTimeSystemDestination>
-      </Source>
-      <Source>
         <SupportedTarget>Linux_x64</SupportedTarget>
         <Source>
           <Type>To Common Doc Dir</Type>
