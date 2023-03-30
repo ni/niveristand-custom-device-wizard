@@ -24,7 +24,7 @@ stages:
         - version: '2023'
           bitness: '64bit'
 
-      releaseVersion: '23.3.0'
+      releaseVersion: '23.5.0'
       buildOutputLocation: 'ProjectTemplate'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
 
