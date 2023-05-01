@@ -32,4 +32,3 @@ stages:
         - controlFileName: 'control'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\ProjectTemplates'
-              payloadLocation: 'ProjectTemplate'
