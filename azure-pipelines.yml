@@ -24,6 +24,12 @@ stages:
         - version: '2023'
           bitness: '64bit'
 
+      buildSteps:
+        - projectLocation: 'ProjectTemplate\Source\NI VeriStand\Custom Device\Consolidated Custom Device.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration Source'
+
       releaseVersion: '23.5.0'
       buildOutputLocation: 'ProjectTemplate'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
