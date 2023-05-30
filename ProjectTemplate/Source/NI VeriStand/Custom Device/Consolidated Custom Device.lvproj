@@ -12,6 +12,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -21,6 +22,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Utility" Type="Folder">
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../../../../../Utility/Post-Build Action.vi"/>
+			<Item Name="Pre-Build Action.vi" Type="VI" URL="../../../../../Utility/Pre-Build Action.vi"/>
+		</Item>
+		<Item Name="Configuration" Type="Folder">
+			<Item Name="Null.lvproj.config" Type="Document" URL="../Null.lvproj.config"/>
+		</Item>
 		<Item Name="PPL Template files" Type="Folder" URL="../PPL Template files">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -194,6 +202,43 @@
 			</Item>
 			<Item Name="ValidateFilePath.vi" Type="VI" URL="/&lt;resource&gt;/dialog/NewProjectWizard/ValidateFilePath.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Configuration Source" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C541FAB6-F983-4E74-8295-48159B84DF37}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">This build spec is only used for setting the correct assebly versions based on the LabVIEW version used during the automated build process. The pre-build action is the only important part of this build. The build just creates a temporary file and then post-build deletes it. This is the simplest way to get assembly versions using the existing automated build process.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Configuration Source</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/git/ni/niveristand-custom-device-wizard/Temp</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Pre-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{88158C10-D128-47D1-A44C-378C5FCFFCA2}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/git/ni/niveristand-custom-device-wizard/Temp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/git/ni/niveristand-custom-device-wizard/Temp/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FF96EF99-449E-43C0-8B62-B61784B9F48A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Configuration/Null.lvproj.config</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
