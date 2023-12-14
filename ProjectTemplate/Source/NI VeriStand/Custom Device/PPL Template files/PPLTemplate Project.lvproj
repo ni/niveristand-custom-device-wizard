@@ -23,7 +23,6 @@
 			<Item Name="%XMLUpdaterFolderName%" Type="Folder">
 				<Item Name="%XMLUpdaterLibraryFileName%" Type="Library" URL="../%UtilityFolderName%/%XMLUpdaterFolderName%/%XMLUpdaterLibraryFileName%"/>
 			</Item>
-			<Item Name="%PPLCHMPreBuildFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLCHMPreBuildFileName%"/>
 			<Item Name="%PPLXMLUpdaterFileName%" Type="VI" URL="../%UtilityFolderName%/%PPLXMLUpdaterFileName%"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
@@ -89,7 +88,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/%UtilityFolderName%/%PPLXMLUpdaterFileName%</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/%UtilityFolderName%/%PPLCHMPreBuildFileName%</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C7B72E93-8B50-487C-8B64-9F99DA0DED33}</Property>
 				<Property Name="Bld_version.build" Type="Int">0</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -99,7 +97,10 @@
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/%CustomDeviceName%</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].destName" Type="Str">Page Help</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/%CustomDeviceName%/Windows/Page Help</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].itemID" Type="Str">{31E7D456-84CA-4D14-BBEA-14F44C4FE1FB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
@@ -114,7 +115,14 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/%XMLCustomDeviceFileName%</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Help/HTML Help Source</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Configuration Release PPL</Property>
 				<Property Name="TgtF_internalName" Type="Str">Configuration Release PPL</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>

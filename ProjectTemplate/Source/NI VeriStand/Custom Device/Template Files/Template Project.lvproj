@@ -20,7 +20,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="%UtilityFolderName%" Type="Folder">
-			<Item Name="%CHMPreBuild%" Type="VI" URL="../%UtilityFolderName%/%CHMPreBuild%"/>
 			<Item Name="%CopyLLBtoNIVSFileName%" Type="VI" URL="../%UtilityFolderName%/%CopyLLBtoNIVSFileName%"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
