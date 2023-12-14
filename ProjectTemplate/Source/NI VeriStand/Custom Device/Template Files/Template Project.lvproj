@@ -114,7 +114,6 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/%CustomDeviceName%</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/%UtilityFolderName%/%CopyLLBtoNIVSFileName%</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/%CHMPreBuild%</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -124,7 +123,10 @@
 				<Property Name="Destination[2].destName" Type="Str">%CustomDeviceName% Configuration LLB</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/%CustomDeviceName%/Windows/%SystemExplorerLLBFileName%</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Destination[3].destName" Type="Str">Page Help</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/%CustomDeviceName%/Windows/Page Help</Property>
+				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].itemID" Type="Str">{08BECEEA-C2C4-4262-8351-7D8564FF9CB1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -179,7 +181,14 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Help/HTML Help Source</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 			<Item Name="Engine Debug" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{C67C1B30-A649-4BB4-8780-C96741B30EB4}</Property>
