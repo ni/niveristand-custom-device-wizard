@@ -17,9 +17,9 @@ The source for this repository is written in LabVIEW 2020.
 
 ## Dependencies
 
-- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
-- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
-- [LabVIEW Real-Time Module 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
+- [VeriStand 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [LabVIEW 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
   - Latest [released package](https://github.com/ni/niveristand-custom-device-development-tools/releases/latest)
   - [HTML Workshop](https://github.com/ni/niveristand-custom-device-development-tools/issues/38)
