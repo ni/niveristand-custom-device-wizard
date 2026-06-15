@@ -54,10 +54,10 @@ stages:
           bitness: '64bit'
 
       buildSteps:
-        - projectLocation: 'Custom Device Express\ProjectTemplate\Source\NI VeriStand\Custom Device\<Express Custom Device>.lvproj'
+        - projectLocation: 'Custom Device Express\ProjectTemplate\Source\NI VeriStand\Custom Device Express\Custom Device\Custom Device Plugin.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
-          buildSpec: '<Express Build Spec Name>'
+          buildSpec: 'Configuration Source'
 
       releaseVersion: '26.0.0'
       buildOutputLocation: 'Custom Device Express\ProjectTemplate'
