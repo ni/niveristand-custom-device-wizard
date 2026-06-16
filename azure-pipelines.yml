@@ -34,7 +34,7 @@ stages:
 
       releaseVersion: '26.0.0'
       buildOutputLocation: 'Custom Device Classic\ProjectTemplate'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard\Custom Device Classic'
 
       packages:
         - controlFileName: 'control'
@@ -62,7 +62,7 @@ stages:
 
       releaseVersion: '26.0.0'
       buildOutputLocation: 'Custom Device Express\ProjectTemplate'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard\Custom Device Express'
 
       packages:
         - controlFileName: 'control'
