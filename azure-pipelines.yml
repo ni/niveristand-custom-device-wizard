@@ -47,10 +47,6 @@ stages:
       stageName: Build_Express
       dependsOn: [ Build_Classic ]
       lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
         - version: '2026'
           bitness: '64bit'
 
