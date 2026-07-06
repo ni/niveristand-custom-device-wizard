@@ -7,7 +7,10 @@
 
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="SubVIs" Type="Folder">
+	<Item Name="Types" Type="Folder">
+		<Item Name="Channel Mode.ctl" Type="VI" URL="../Types/Channel Mode.ctl"/>
+	</Item>
+	<Item Name="Utilities" Type="Folder">
 		<Item Name="Build Channel Group Info.vi" Type="VI" URL="../SubVIs/Build Channel Group Info.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
@@ -38,9 +41,6 @@
 		<Item Name="Parse JSON for Channels.vi" Type="VI" URL="../SubVIs/Parse JSON for Channels.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
-	</Item>
-	<Item Name="Types" Type="Folder">
-		<Item Name="Channel Mode.ctl" Type="VI" URL="../Types/Channel Mode.ctl"/>
 	</Item>
 	<Item Name="Template Deployment Hooks.lvclass" Type="LVClass" URL="../Template Deployment Hooks.lvclass"/>
 </Library>

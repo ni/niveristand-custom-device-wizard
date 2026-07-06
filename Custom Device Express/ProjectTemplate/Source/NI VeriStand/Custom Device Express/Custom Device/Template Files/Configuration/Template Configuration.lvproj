@@ -24,48 +24,48 @@
 		</Item>
 		<Item Name="%ConfigurationLibraryFileName%" Type="Library" URL="../%ConfigurationLibraryFileName%"/>
 		<Item Name="%XMLCustomDeviceFileName%" Type="Document" URL="../../../%XMLCustomDeviceFileName%"/>
-		<Item Name="CustomDeviceInterfaces_v1.lvlibp" Type="LVLibp" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp">
+		<Item Name="Custom Device Interfaces_v1.lvlibp" Type="LVLibp" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp">
 			<Item Name="Custom Device" Type="Folder">
-				<Item Name="CustomDevice.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp/custom-device-express-framework/Source/Custom Device Interfaces/CustomDevice/CustomDevice.lvclass"/>
+				<Item Name="Custom Device.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/CustomDevice/Custom Device.lvclass"/>
 			</Item>
 			<Item Name="Custom Device API" Type="Folder">
-				<Item Name="CustomDeviceAPI.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp/custom-device-express-framework/Source/Custom Device Interfaces/CustomDeviceAPI/CustomDeviceAPI.lvclass"/>
+				<Item Name="Custom Device API.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/CustomDeviceAPI/Custom Device API.lvclass"/>
 			</Item>
 			<Item Name="Custom Device Deployment Hooks" Type="Folder">
-				<Item Name="CustomDeviceDeploymentHooks.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp/custom-device-express-framework/Source/Custom Device Interfaces/CustomDeviceDeploymentHooks/CustomDeviceDeploymentHooks.lvclass"/>
+				<Item Name="Custom Device Deployment Hooks.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/CustomDeviceDeploymentHooks/Custom Device Deployment Hooks.lvclass"/>
 			</Item>
 			<Item Name="Utility" Type="Folder">
-				<Item Name="CustomDeviceUtility.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp/custom-device-express-framework/Source/Custom Device Interfaces/Utility/CustomDeviceUtility.lvclass"/>
+				<Item Name="Custom Device Utility.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/Utility/Custom Device Utility.lvclass"/>
 			</Item>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;userlib&gt;/CustomDeviceInterfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release PPL" Type="Packed Library">
-				<Property Name="Bld_buildCacheID" Type="Str">{3ECB30A6-9676-497C-9292-3EC689BB6702}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">%ConfigurationPPLGUID1%</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Release PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows/Adapter</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{C7B72E93-8B50-487C-8B64-9F99DA0DED33}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">%ConfigurationPPLGUID2%</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">%ConfigurationPPLFileName%</Property>
-				<Property Name="Destination[0].path" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows/%ConfigurationPPLFileName%</Property>
+				<Property Name="Destination[0].path" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows/Adapter/%ConfigurationPPLFileName%</Property>
 				<Property Name="Destination[0].path.type" Type="Str">Absolute</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows</Property>
+				<Property Name="Destination[1].path" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows/Adapter</Property>
 				<Property Name="Destination[1].path.type" Type="Str">Absolute</Property>
 				<Property Name="Destination[2].destName" Type="Str">Common Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%</Property>
 				<Property Name="Destination[2].path.type" Type="Str">Absolute</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{31E7D456-84CA-4D14-BBEA-14F44C4FE1FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">%ConfigurationPPLGUID3%</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/%ConfigurationLibraryFileName%</Property>
@@ -79,14 +79,15 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/%XMLCustomDeviceFileName%</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/PluginCore_v1.lvlibp</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Custom Device Interfaces_v1.lvlibp</Property>
 				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI (now part of Emerson)</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Configuration Release PPL</Property>
 				<Property Name="TgtF_internalName" Type="Str">Configuration Release PPL</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 NI (now part of Emerson)</Property>
 				<Property Name="TgtF_productName" Type="Str">Configuration Release PPL</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">%ConfigurationPPLGUID%</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">%ConfigurationPPLGUID4%</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">%CustomDeviceName% Configuration.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>

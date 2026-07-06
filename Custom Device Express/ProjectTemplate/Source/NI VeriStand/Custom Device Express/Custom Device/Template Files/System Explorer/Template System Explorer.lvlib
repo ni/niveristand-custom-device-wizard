@@ -9,17 +9,19 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
-			<Item Name="Extra Pages" Type="Folder"/>
+			<Item Name="Extra Pages" Type="Folder">
+				<Item Name="Utilities" Type="Folder">
+					<Item Name="Build Channel Settings.vi" Type="VI" URL="../Extra Pages/Utilities/Build Channel Settings.vi"/>
+					<Item Name="Build Waveform Settings.vi" Type="VI" URL="../Extra Pages/Utilities/Build Waveform Settings.vi"/>
+				</Item>
+			</Item>
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Dynamically Called/Export Configuration RTM.vi"/>
-			<Item Name="Export Plugin Configuration.vi" Type="VI" URL="../Dynamically Called/Export Plugin Configuration.vi"/>
 			<Item Name="Export to JSON RTM.vi" Type="VI" URL="../Dynamically Called/Export to JSON RTM.vi"/>
 			<Item Name="Import from JSON RTM.vi" Type="VI" URL="../Dynamically Called/Import from JSON RTM.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
-		<Item Name="Page SubVIs" Type="Folder"/>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Load Help File.vi" Type="VI" URL="../Utilities/Load Help File.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>

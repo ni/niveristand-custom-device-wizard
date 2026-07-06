@@ -47,15 +47,11 @@ stages:
       stageName: Build_Express
       dependsOn: [ Build_Classic ]
       lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
         - version: '2026'
           bitness: '64bit'
 
       buildSteps:
-        - projectLocation: 'Custom Device Express\ProjectTemplate\Source\NI VeriStand\Custom Device Express\Custom Device\Custom Device Plugin.lvproj'
+        - projectLocation: 'Custom Device Express\ProjectTemplate\Source\NI VeriStand\Custom Device Express\Custom Device\Custom Device Express.lvproj'
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Configuration Source'
@@ -65,7 +61,7 @@ stages:
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard\Custom Device Express'
 
       packages:
-        - controlFileName: 'control'
+        - controlFileName: 'control_custom_device_express'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\ProjectTemplates'
 

@@ -4,7 +4,7 @@
 <ProjectTemplate>
   <Title localize="yes">NI VeriStand Custom Device Express</Title>
   <MetaDataClass>NIVS_CDEW_MetaDataObj/NIVS_CDEW_MetaDataObj.lvclass</MetaDataClass>
-  <Description localize="yes">Creates a NI VeriStand custom device project.</Description>
+  <Description localize="yes">Creates NI VeriStand custom device projects, scripting APIs and GUIs.</Description>
   <Filters localize="yes">NI VeriStand</Filters>
   <Keywords localize="yes">NIVS;NI VeriStand;Custom Device</Keywords>
   <LocationPath>NI VeriStand/Custom Device Express/Custom Device</LocationPath>
