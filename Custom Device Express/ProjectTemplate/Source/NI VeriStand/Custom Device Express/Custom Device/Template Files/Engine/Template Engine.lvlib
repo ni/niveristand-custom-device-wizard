@@ -10,9 +10,9 @@
 	<Item Name="NIVS Custom Device API" Type="Folder">
 		<Item Name="NIVS Custom Device API.lvclass" Type="LVClass" URL="../VS Custom Device API/NIVS Custom Device API.lvclass"/>
 	</Item>
-	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Get Custom Device Details.vi" Type="VI" URL="../SubVIs/Get Custom Device Details.vi"/>
-		<Item Name="Update Global Refs.vi" Type="VI" URL="../SubVIs/Update Global Refs.vi"/>
+	<Item Name="Utilities" Type="Folder">
+		<Item Name="Get Custom Device Details.vi" Type="VI" URL="../Utilities/Get Custom Device Details.vi"/>
+		<Item Name="Update Global Refs.vi" Type="VI" URL="../Utilities/Update Global Refs.vi"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>

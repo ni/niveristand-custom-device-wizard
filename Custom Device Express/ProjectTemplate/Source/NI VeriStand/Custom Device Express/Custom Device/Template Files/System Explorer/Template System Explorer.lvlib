@@ -20,8 +20,8 @@
 			<Item Name="Import from JSON RTM.vi" Type="VI" URL="../Dynamically Called/Import from JSON RTM.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Load Help File.vi" Type="VI" URL="../Utilities/Load Help File.vi"/>
 		</Item>
 	</Item>
 </Library>
