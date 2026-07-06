@@ -12,16 +12,16 @@
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Dynamically Called/ActionVIOnCompile.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Dynamically Called/Initialization VI.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="Clear RTDriver VIs File Paths.vi" Type="VI" URL="../Utilities/Clear RTDriver VIs File Paths.vi"/>
-			<Item Name="Get Custom Device Reference.vi" Type="VI" URL="../Utilities/Get Custom Device Reference.vi"/>
-			<Item Name="Get Node Reference.vi" Type="VI" URL="../Utilities/Get Node Reference.vi"/>
-			<Item Name="Import Custom Device Configuration.vi" Type="VI" URL="../Utilities/Import Custom Device Configuration.vi"/>
-			<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Utilities/Initialize Custom Device.vi"/>
-			<Item Name="Load Deployment Hooks.vi" Type="VI" URL="../Utilities/Load Deployment Hooks.vi"/>
-			<Item Name="Set Custom Device Instance Name.vi" Type="VI" URL="../Utilities/Set Custom Device Instance Name.vi"/>
-			<Item Name="Set RTDriver VIs File Paths.vi" Type="VI" URL="../Utilities/Set RTDriver VIs File Paths.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Clear RTDriver VIs File Paths.vi" Type="VI" URL="../SubVIs/Clear RTDriver VIs File Paths.vi"/>
+			<Item Name="Get Custom Device Reference.vi" Type="VI" URL="../SubVIs/Get Custom Device Reference.vi"/>
+			<Item Name="Get Node Reference.vi" Type="VI" URL="../SubVIs/Get Node Reference.vi"/>
+			<Item Name="Import Custom Device Configuration.vi" Type="VI" URL="../SubVIs/Import Custom Device Configuration.vi"/>
+			<Item Name="Initialize Custom Device.vi" Type="VI" URL="../SubVIs/Initialize Custom Device.vi"/>
+			<Item Name="Load Deployment Hooks.vi" Type="VI" URL="../SubVIs/Load Deployment Hooks.vi"/>
+			<Item Name="Set Custom Device Instance Name.vi" Type="VI" URL="../SubVIs/Set Custom Device Instance Name.vi"/>
+			<Item Name="Set RTDriver VIs File Paths.vi" Type="VI" URL="../SubVIs/Set RTDriver VIs File Paths.vi"/>
 		</Item>
+		<Item Name="Types" Type="Folder"/>
 	</Item>
 </Library>

@@ -13,7 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="%XMLCustomDeviceFileName%" Type="Document" URL="../../../%XMLCustomDeviceFileName%"/>
-		<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
+		<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
 		<Item Name="%SystemExplorerFileName%.lvlib" Type="Library" URL="../%SystemExplorerFileName%.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
@@ -37,7 +37,7 @@
 				<Property Name="Destination[1].path" Type="Path">/%CDFolderPath%/Builds/%CustomDeviceName%/Windows</Property>
 				<Property Name="Destination[1].path.type" Type="Str">Absolute</Property>
 				<Property Name="Destination[2].destName" Type="Str">Common Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">/%CDFolderPath%/Builds/%CustomDeviceName%</Property>
+				<Property Name="Destination[2].path" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%</Property>
 				<Property Name="Destination[2].path.type" Type="Str">Absolute</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
