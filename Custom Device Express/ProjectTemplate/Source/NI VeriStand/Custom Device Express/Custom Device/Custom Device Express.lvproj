@@ -58,10 +58,10 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{E191AF1E-1D16-418C-B030-55528D5FB879}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/git/ni/niveristand-custom-device-wizard/Temp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/git/ni/niveristand-custom-device-express-wizard/Temp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/git/ni/niveristand-custom-device-wizard/Temp/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/git/ni/niveristand-custom-device-express-wizard/Temp/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{B2607A46-A525-45AD-B368-75DA7CD384E9}</Property>
