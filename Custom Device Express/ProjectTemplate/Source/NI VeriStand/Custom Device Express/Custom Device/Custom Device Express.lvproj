@@ -29,11 +29,7 @@
 		<Item Name="Template Files" Type="Folder" URL="../Template Files">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Utility" Type="Folder">
-			<Item Name="Post-Build Action.vi" Type="VI" URL="../../../../../../Utility/Post-Build Action.vi"/>
-			<Item Name="Pre-Build Action.vi" Type="VI" URL="../../../../../../Utility/Pre-Build Action.vi"/>
-		</Item>
-		<Item Name="NIVS_CDPW_MetaDataObj.lvclass" Type="LVClass" URL="../NIVS_CDPW_MetaDataObj/NIVS_CDPW_MetaDataObj.lvclass"/>
+		<Item Name="NIVS_CDEW_MetaDataObj.lvclass" Type="LVClass" URL="../NIVS_CDEW_MetaDataObj/NIVS_CDEW_MetaDataObj.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Source" Type="Source Distribution">
@@ -53,8 +49,6 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/git/ni/niveristand-custom-device-express-wizard/Temp</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Post-Build Action.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E191AF1E-1D16-418C-B030-55528D5FB879}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
