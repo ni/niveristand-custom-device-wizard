@@ -37,7 +37,7 @@ stages:
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard\Custom Device Classic'
 
       packages:
-        - controlFileName: 'control'
+        - controlFileName: 'control_custom_device_classic'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\ProjectTemplates'
 
