@@ -2,7 +2,7 @@
 <MetaData>
 
 <ProjectTemplate>
-  <Title localize="yes">CONSOLIDATED NI VeriStand Custom Device</Title>
+  <Title localize="yes">NI VeriStand Custom Device Classic</Title>
   <MetaDataClass>NIVS_Consolidated_CDW_MetaDataObj/NIVS_Consolidated_CDW_MetaDataObj.lvclass</MetaDataClass>
   <Description localize="yes">Creates a NI VeriStand custom device project.</Description>
   <Filters localize="yes">NI VeriStand</Filters>
