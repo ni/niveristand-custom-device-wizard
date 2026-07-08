@@ -9,14 +9,6 @@ branch with your changes to your project, and then submit a pull request.
 
 See [GitHub's official documentation](https://help.github.com/articles/using-pull-requests/) for more details.
 
-# Getting Started
-
-- TO DO
-
-
-# Testing
-
-- TO DO
 
 # Developer Certificate of Origin (DCO)
 
