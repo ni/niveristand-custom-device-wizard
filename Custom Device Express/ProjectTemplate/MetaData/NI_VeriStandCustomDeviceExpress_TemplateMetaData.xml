@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<MetaData>
+
+<ProjectTemplate>
+  <Title localize="yes">NI VeriStand Custom Device Express</Title>
+  <MetaDataClass>NIVS_CDEW_MetaDataObj/NIVS_CDEW_MetaDataObj.lvclass</MetaDataClass>
+  <Description localize="yes">Creates NI VeriStand custom device projects, scripting APIs and GUIs.</Description>
+  <Filters localize="yes">NI VeriStand</Filters>
+  <Keywords localize="yes">NIVS;NI VeriStand;Custom Device</Keywords>
+  <LocationPath>NI VeriStand/Custom Device Express/Custom Device</LocationPath>
+  <ProjectPath>Null.lvproj</ProjectPath>
+  <ListboxImagePath>Template Files/Veristand_icon_32x32.png</ListboxImagePath>
+  <DocumentationPath></DocumentationPath>
+  <CustomVIMode>AfterPage2NoUI</CustomVIMode>
+  <CustomVIPath>NIVS_CDEW_MetaDataObj/AfterPage2_GenCDP.vi</CustomVIPath>
+  <SortPriority>250</SortPriority>
+  <HidePrefix>True</HidePrefix>
+  <HideIconOverlay>True</HideIconOverlay>
+</ProjectTemplate>
+
+</MetaData>

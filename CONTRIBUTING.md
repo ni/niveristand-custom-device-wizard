@@ -11,7 +11,10 @@ branch with your changes to your project, and then submit a pull request.
 
 See [GitHub's official documentation](https://help.github.com/articles/using-pull-requests/) for more details.
 
+
 # Getting Started
+
+## Custom Device Classic
 
 - Use LabVIEW 2017 or later.
 - Sync the source into the [LabVIEW 20xx]\ProjectTemplates folder in the following manner:
@@ -31,7 +34,7 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 	- NI VeriStand Custom Device Import and Export Tool 1.0.0.7 or later
 	- NI VeriStand Error API 1.0.0.3 or later
 	- NI Veristand Inline Async API 1.0.0.31 or later
-- Select File > Create Project in LabVIEW and select the "CONSOLIDATED NI VeriStand Custom Device" project template.
+- Select File > Create Project in LabVIEW and select the "NI VeriStand Custom Device Classic" project template.
 
 
 # Testing
