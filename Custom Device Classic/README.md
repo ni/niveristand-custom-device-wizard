@@ -1,4 +1,4 @@
-# NI VeriStand Custom Device Wizard
+# NI VeriStand Custom Device Classic Wizard
 
 This project template is a consolidated version of pre-existing project templates for creating custom devices. It includes the following templates:
 
