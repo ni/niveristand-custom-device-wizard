@@ -1,4 +1,4 @@
-# NI VeriStand Custom Device Wizard Express
+# NI VeriStand Custom Device Express Wizard
 
 This project template is a consolidated version of pre-existing project templates for creating custom devices based on custom device express template. It includes the following templates:
 
