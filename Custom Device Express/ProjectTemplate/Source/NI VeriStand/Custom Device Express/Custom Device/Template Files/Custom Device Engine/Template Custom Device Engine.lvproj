@@ -84,7 +84,7 @@
 			</Item>
 			<Item Name="Custom Device Engine Release PPL" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">%CustomDeviceEngineGUID1%</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">CustomDeviceEngine Release PPL</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Custom Device Engine Release PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/%CDFolderPath%/Builds/%CustomDeviceName%/Windows</Property>
@@ -162,7 +162,7 @@
 			</Item>
 			<Item Name="Custom Device Engine Debug PPL" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">%CustomDeviceEngineGUID5%</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">CustomDeviceEngine Debug PPL</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Custom Device Engine Debug PPL</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/%CDFolderPath%/Builds/%CustomDeviceName%/Windows</Property>
