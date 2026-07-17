@@ -32,6 +32,7 @@
         <eng>%Name</eng>
         <loc>%Name</loc>
       </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
       <GUID>%MainPageGUID</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
