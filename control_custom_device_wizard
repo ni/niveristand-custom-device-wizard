@@ -1,0 +1,17 @@
+Package: ni-custom-device-wizard-labview-{labview_version}-support
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description: Installs the VeriStand custom device wizards for LabVIEW {labview_version}. Includes the classic wizard by default and offers the express wizard as an optional component.
+XB-Eula: eula-ni-standard
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {display_version}
+XB-DisplayName: VeriStand Custom Device Wizard for LabVIEW {labview_version}
+Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
+Recommends: ni-custom-device-classic-wizard-labview-{labview_version}-support (>= 26.0.0)
+Suggests: ni-custom-device-express-wizard-labview-{labview_version}-support (>= 26.0.0)

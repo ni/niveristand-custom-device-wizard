@@ -40,6 +40,11 @@ stages:
         - controlFileName: 'control_custom_device_classic'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\ProjectTemplates'
+        # Wizard metapackage: the installer users select. Recommends Classic
+        # (selected by default) and suggests Express (optional; only present in
+        # the feed for LabVIEW 2026). It has no payload of its own.
+        - controlFileName: 'control_custom_device_wizard'
+          payloadMaps: []
 
   # ---------------- Express ----------------
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
