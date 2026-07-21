@@ -20,7 +20,6 @@
 			<Item Name="Import Custom Device Configuration.vi" Type="VI" URL="../Utilities/Import Custom Device Configuration.vi"/>
 			<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Utilities/Initialize Custom Device.vi"/>
 			<Item Name="Load Deployment Hooks.vi" Type="VI" URL="../Utilities/Load Deployment Hooks.vi"/>
-			<Item Name="Set Custom Device Instance Name.vi" Type="VI" URL="../Utilities/Set Custom Device Instance Name.vi"/>
 			<Item Name="Set RTDriver VIs File Paths.vi" Type="VI" URL="../Utilities/Set RTDriver VIs File Paths.vi"/>
 		</Item>
 	</Item>
