@@ -18,7 +18,6 @@
 			<Item Name="Export Configuration RTM.vi" Type="VI" URL="../Dynamically Called/Export Configuration RTM.vi"/>
 			<Item Name="Export to JSON RTM.vi" Type="VI" URL="../Dynamically Called/Export to JSON RTM.vi"/>
 			<Item Name="Import from JSON RTM.vi" Type="VI" URL="../Dynamically Called/Import from JSON RTM.vi"/>
-			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Load Help File.vi" Type="VI" URL="../Utilities/Load Help File.vi"/>
