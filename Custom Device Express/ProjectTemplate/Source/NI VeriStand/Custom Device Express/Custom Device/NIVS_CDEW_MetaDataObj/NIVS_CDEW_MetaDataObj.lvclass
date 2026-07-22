@@ -609,6 +609,30 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
+		<Item Name="Status.vi" Type="VI" URL="../SubVIs/Status.vi">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
+		<Item Name="Error Dialog.vi" Type="VI" URL="../SubVIs/Error Dialog.vi">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073774912</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1084236304</Property>
+		</Item>
+		<Item Name="Error.vi" Type="VI" URL="../SubVIs/Error.vi">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">8192</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1084236304</Property>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="ConfigurationProjectToolStates.ctl" Type="VI" URL="../Types/ConfigurationProjectToolStates.ctl">
