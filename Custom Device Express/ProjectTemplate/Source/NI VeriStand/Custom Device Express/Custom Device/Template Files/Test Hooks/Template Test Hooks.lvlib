@@ -7,14 +7,16 @@
 
 </Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="After Close.vi" Type="VI" URL="../After Close.vi"/>
-	<Item Name="After Initialize.vi" Type="VI" URL="../After Initialize.vi"/>
-	<Item Name="After Read.vi" Type="VI" URL="../After Read.vi"/>
-	<Item Name="After Start.vi" Type="VI" URL="../After Start.vi"/>
-	<Item Name="After Write.vi" Type="VI" URL="../After Write.vi"/>
-	<Item Name="Before Close.vi" Type="VI" URL="../Before Close.vi"/>
-	<Item Name="Before Initialize.vi" Type="VI" URL="../Before Initialize.vi"/>
-	<Item Name="Before Read.vi" Type="VI" URL="../Before Read.vi"/>
-	<Item Name="Before Start.vi" Type="VI" URL="../Before Start.vi"/>
-	<Item Name="Before Write.vi" Type="VI" URL="../Before Write.vi"/>
+	<Item Name="Test Hooks" Type="Folder">
+		<Item Name="After Close.vi" Type="VI" URL="../After Close.vi"/>
+		<Item Name="After Initialize.vi" Type="VI" URL="../After Initialize.vi"/>
+		<Item Name="After Read.vi" Type="VI" URL="../After Read.vi"/>
+		<Item Name="After Start.vi" Type="VI" URL="../After Start.vi"/>
+		<Item Name="After Write.vi" Type="VI" URL="../After Write.vi"/>
+		<Item Name="Before Close.vi" Type="VI" URL="../Before Close.vi"/>
+		<Item Name="Before Initialize.vi" Type="VI" URL="../Before Initialize.vi"/>
+		<Item Name="Before Read.vi" Type="VI" URL="../Before Read.vi"/>
+		<Item Name="Before Start.vi" Type="VI" URL="../Before Start.vi"/>
+		<Item Name="Before Write.vi" Type="VI" URL="../Before Write.vi"/>
+	</Item>
 </Library>
