@@ -44,6 +44,7 @@
 				<Property Name="Destination[2].path.type" Type="Str">Absolute</Property>
 				<Property Name="Destination[3].destName" Type="Str">Page Help</Property>
 				<Property Name="Destination[3].path" Type="Path">/%CDFolderPath%/Builds/%CustomDeviceName%/Windows/Page Help</Property>
+				<Property Name="Destination[3].path.type" Type="Str">Absolute</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
