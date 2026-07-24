@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Help" Type="Folder" URL="../Help">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="%XMLCustomDeviceFileName%" Type="Document" URL="../../../%XMLCustomDeviceFileName%"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
 		<Item Name="%SystemExplorerFileName%.lvlib" Type="Library" URL="../%SystemExplorerFileName%.lvlib"/>
@@ -39,7 +42,10 @@
 				<Property Name="Destination[2].destName" Type="Str">Common Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">/%CDFolderPath%/Builds/%CustomDeviceName%</Property>
 				<Property Name="Destination[2].path.type" Type="Str">Absolute</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Destination[3].destName" Type="Str">Page Help</Property>
+				<Property Name="Destination[3].path" Type="Path">/%CDFolderPath%/Builds/%CustomDeviceName%/Windows/Page Help</Property>
+				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].itemID" Type="Str">%SystemExplorerGUID3%</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
@@ -54,7 +60,14 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/%XMLCustomDeviceFileName%</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Help/HTML Help Source</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI (now part of Emerson)</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">System Explorer Release PPL</Property>
 				<Property Name="TgtF_internalName" Type="Str">System Explorer Release PPL</Property>
