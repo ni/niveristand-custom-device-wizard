@@ -111,13 +111,18 @@
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Compiled.Settings.ctl</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass/Logging</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass/Logging</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass/Overrides</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -126,30 +131,26 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass/Overrides</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass/Processes</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass/Processes</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Custom Device Interfaces_v1.lvlibp</Property>
-				<Property Name="Source[6].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass</Property>
-				<Property Name="Source[7].newName" Type="Str">%CustomDeviceName%.lvclass</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[7].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass</Property>
+				<Property Name="Source[5].newName" Type="Str">%CustomDeviceName%.lvclass</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/%CustomDeviceEngineLibraryFileName% Engine.lvlib/%CustomDeviceEngineLibraryFileName% Engine.lvclass/Utilities</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI (now part of Emerson)</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CustomDeviceEngine Release PPL</Property>
 				<Property Name="TgtF_internalName" Type="Str">CustomDeviceEngine Release PPL</Property>
