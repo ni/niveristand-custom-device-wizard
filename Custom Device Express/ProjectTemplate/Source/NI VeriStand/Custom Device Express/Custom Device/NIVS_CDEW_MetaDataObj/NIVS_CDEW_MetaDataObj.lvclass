@@ -633,6 +633,14 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1084236304</Property>
 		</Item>
+		<Item Name="Update CD Name in Help.vi" Type="VI" URL="../SubVIs/Update CD Name in Help.vi">
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">0</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278930</Property>
+		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="ConfigurationProjectToolStates.ctl" Type="VI" URL="../Types/ConfigurationProjectToolStates.ctl">
