@@ -4,7 +4,6 @@ This project template is a consolidated version of pre-existing project template
 
 - Inline HW Interface
 - Inline HW Interface (Inline-Async)
-- Inline Timing and Sync
 
 The scripting code uses a LabVIEW Class-based design that allows you to easily add support for creating new custom device project templates.
 
