@@ -17,14 +17,8 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 ## Custom Device Classic
 
 - Use LabVIEW 2017 or later.
-- Sync the source into the [LabVIEW 20xx]\ProjectTemplates folder in the following manner:
-	- "ProjectTemplate\MetaData\NI_VeriStandCustomDevice_TemplateMetaData.xml" into the "ProjectTemplates\MetaData" folder
-	- "ProjectTemplate\Source\NI VeriStand\Custom Device\*" into the "ProjectTemplates\Source\NI VeriStand\Custom Device" folder:
-		- NI_VS_Consolidated_CDW_MetaDataObj
-		- Template Classes
-		- Template Files
-		- Null.lvproj
-		- Consolidated Custom Device.lvproj (only necessary for development)
+- Sync the [source] (https://github.com/ni/niveristand-custom-device-wizard) to a folder (like C:/git)
+- Open source files from the source folder (synced in previous step) "Custom Device Classic\ProjectTemplate\Source\NI VeriStand\Custom Device" folder
 - Ensure the following dependent packages are installed:
 	- NI Compiled HTML Menu Tool 1.0.0.12 or later
 	- NI Keyed Array Library 2.0.0.11 or later
@@ -34,12 +28,29 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 	- NI VeriStand Custom Device Import and Export Tool 1.0.0.7 or later
 	- NI VeriStand Error API 1.0.0.3 or later
 	- NI Veristand Inline Async API 1.0.0.31 or later
-- Select File > Create Project in LabVIEW and select the "NI VeriStand Custom Device Classic" project template.
+
+# Testing
+
+- Install Custom Device Wizard (and its dependencies) 
+- Copy the modified folder Custom Device Classic into [LabVIEW 20xx]\ProjectTemplates\Source\NI VeriStand folder and rename it as Custom Device
+- Launch LabVIEW and Creates a new instance of each of the custom device projects listed in the project template UI and ensure they are created properly without errors.
+- Uninstall Custom Device Wizard
+
+## Custom Device Express
+
+- Use LabVIEW 2026 or later.
+- Sync the [source] (https://github.com/ni/niveristand-custom-device-wizard) to a folder (like C:/git)
+Open source files from the source folder (synced in previous step) "Custom Device Express\ProjectTemplate\Source\NI VeriStand\Custom Device Express\Custom Device" folder
+- Ensure the following dependent packages are installed:
+	- NI Veristand Custom Device Development Tools 26.5.0.89 or later
 
 
 # Testing
 
-- Create an instance of each of the custom device projects listed in the project template UI and ensure they are created properly without errors.
+- Install Custom Device Wizard 26.5.0.0 or later (and its dependencies) 
+- Copy the modified folder Custom Device Express into [LabVIEW 20xx]\ProjectTemplates\Source\NI VeriStand folder
+- Launch LabVIEW and Creates a new instance of each of the custom device projects listed in the project template UI and ensure they are created properly without errors. Also all the default PPLs are built
+- Uninstall Custom Device Wizard
 
 # Developer Certificate of Origin (DCO)
 
