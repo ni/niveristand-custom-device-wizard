@@ -31,7 +31,7 @@ See [GitHub's official documentation](https://help.github.com/articles/using-pul
 
 # Testing
 
-- Install Custom Device Wizard 26.5.0.0 or later (and its dependencies) 
+- Install Custom Device Wizard (and its dependencies) 
 - Copy the modified folder Custom Device Classic into [LabVIEW 20xx]\ProjectTemplates\Source\NI VeriStand folder and rename it as Custom Device
 - Launch LabVIEW and Creates a new instance of each of the custom device projects listed in the project template UI and ensure they are created properly without errors.
 - Uninstall Custom Device Wizard
