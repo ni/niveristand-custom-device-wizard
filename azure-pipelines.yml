@@ -59,7 +59,7 @@ stages:
             if ($LASTEXITCODE -ge 8) { throw "robocopy failed with exit code $LASTEXITCODE" }
             $global:LASTEXITCODE = 0
 
-      releaseVersion: '26.0.0'
+      releaseVersion: '26.5.0'
       buildOutputLocation: 'BuildOutput'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
 
