@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <XSDVersion Build="0" Fix="0" Major="2010" Minor="0"/>
+  <AddMenu>
+    <eng>NIDMM</eng>
+    <loc>NIDMM</loc>
+  </AddMenu>
+  <Version>1.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>1</MaxOccurrence>
+  <MainPageGUID>AF03444C-E184-4AED-AD47-5152539F98C4</MainPageGUID>
+  <CustomDeviceSystemDefenitionAPI>
+    <Type>To Common Doc Dir</Type>
+    <Path>Custom Devices\NIDMM\Windows\NationalInstruments.Veristand.NIDMM.dll</Path>
+  </CustomDeviceSystemDefenitionAPI>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+      <Path>Custom Devices\NIDMM\Windows\Adapter\NIDMM Configuration.lvlibp\Dynamically Called\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <SourceDistribution>
+      <Source>
+        <SupportedTarget>Linux_x64</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\NIDMM\Linux_x64\Adapter\NIDMM Engine Linux64.lvlibp\Engine\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>C:\ni-rt\VeriStand\Custom Devices\NIDMM\Adapter\NIDMM Engine Linux64.lvlibp\Engine\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+      <Source>
+        <SupportedTarget>Windows</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\NIDMM\Windows\Adapter\NIDMM Engine Windows.lvlibp\Engine\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>C:\ni-rt\VeriStand\Custom Devices\NIDMM\Adapter\NIDMM Engine Windows.lvlibp\Engine\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
+    </SourceDistribution>
+  </CustomDeviceVI>
+  <Dependencies>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Linux_x64\Adapter\Custom Device Interfaces_v1.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NIDMM\Adapter\Custom Device Interfaces_v1.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Linux_x64\NIDMM.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NIDMM\NIDMM.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Linux_x64</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Linux_x64\Adapter\NIDMM Engine Linux64.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NIDMM\Adapter\NIDMM Engine Linux64.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Windows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\Adapter\Custom Device Interfaces_v1.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NIDMM\Adapter\Custom Device Interfaces_v1.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Windows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NIDMM\NIDMM.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+    <Dependency>
+      <SupportedTarget>Windows</SupportedTarget>
+      <Source>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\Adapter\NIDMM Engine Windows.lvlibp</Path>
+      </Source>
+      <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\NIDMM\Adapter\NIDMM Engine Windows.lvlibp</RealTimeSystemDestination>
+    </Dependency>
+  </Dependencies>
+  <Pages>
+    <Page>
+      <Name>
+        <eng>NIDMM</eng>
+        <loc>NIDMM</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>AF03444C-E184-4AED-AD47-5152539F98C4</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>Glyphs\default fpga category.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Main Page.vi</Path>
+      </Item2Launch>
+        <RunTimeMenu>
+          <MenuItem>
+            <GUID>E81C284B-1497-4902-AD10-398CD6615D79</GUID>
+            <Type>Action</Type>
+            <Name>
+              <eng>Export to JSON</eng>
+              <loc>Export to JSON</loc>
+            </Name>
+            <Item2Launch>
+              <Type>To Common Doc Dir</Type>
+              <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Dynamically Called\Export to Json RTM.vi</Path>
+            </Item2Launch>
+          </MenuItem>
+          <MenuItem>
+            <GUID>29E91FF8-245D-4127-A14A-B8989EC56EA8</GUID>
+            <Type>Action</Type>
+            <Name>
+              <eng>Import from JSON</eng>
+              <loc>Import from JSON</loc>
+            </Name>
+            <Item2Launch>
+              <Type>To Common Doc Dir</Type>
+              <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Dynamically Called\Import from Json RTM.vi</Path>
+            </Item2Launch>
+          </MenuItem>
+          <MenuItem>
+            <GUID>5D3067BF-FC26-4F17-87F1-C93C1DC461CC</GUID>
+            <Type>Action</Type>
+            <Name>
+              <eng>Export Configuration</eng>
+              <loc>Export Configuration</loc>
+            </Name>
+            <Item2Launch>
+              <Type>To Common Doc Dir</Type>
+              <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Dynamically Called\Export Configuration RTM.vi</Path>
+            </Item2Launch>
+          </MenuItem>
+        </RunTimeMenu>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\Adapter\NIDMM Configuration.lvlibp\Dynamically Called\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Heartbeat</eng>
+        <loc>Heartbeat</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>2B384129-0B49-49BE-9FAA-F3F7E079CBDB</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\Heartbeat.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>ActiveMode</eng>
+        <loc>ActiveMode</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>FFA0EA82-CF1D-4D1D-9B03-3584A293CC32</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\ActiveMode.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>DeviceStatus</eng>
+        <loc>DeviceStatus</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>E139E089-365D-4EC1-912C-8BD3A4CCB854</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\DeviceStatus.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Mode</eng>
+        <loc>Mode</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>90D03ED0-6DED-48C7-94A4-259EF6A81FBD</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\Mode.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>VoltageReading</eng>
+        <loc>VoltageReading</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>8283FCB0-18AF-4B6C-96F0-5EE7BC79B34A</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\VoltageReading.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>VoltageActualRange</eng>
+        <loc>VoltageActualRange</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>8419A2AD-37A7-4D32-A37B-D07FEF3A100B</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\VoltageActualRange.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>VoltageStatus</eng>
+        <loc>VoltageStatus</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>7615EA37-71D4-42E7-BBFE-8E73ECEF0D1A</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\VoltageStatus.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>CurrentReading</eng>
+        <loc>CurrentReading</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>7E9C7697-2AD8-458A-9731-C8D8B1A0B539</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\CurrentReading.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>CurrentActualRange</eng>
+        <loc>CurrentActualRange</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>5676D9EB-5B34-4C73-B2B3-FA845A284478</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\CurrentActualRange.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>CurrentStatus</eng>
+        <loc>CurrentStatus</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>94C4B5B7-1AAC-4C61-8AD0-AEF573DB948C</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\CurrentStatus.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>VoltageFunction</eng>
+        <loc>VoltageFunction</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>980914C0-6631-4159-A14A-587E94CAEFEC</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\VoltageFunction.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>VoltageRange</eng>
+        <loc>VoltageRange</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>7286BA1F-1B14-476C-8412-7EF73EB8FCB8</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\VoltageRange.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>CurrentFunction</eng>
+        <loc>CurrentFunction</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>F86664B4-AC14-4F1E-90D4-0B317BC90E74</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\CurrentFunction.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>CurrentRange</eng>
+        <loc>CurrentRange</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>0E5586C5-F8D5-4F87-BD22-42F69231C38C</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\CurrentRange.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Voltage</eng>
+        <loc>Voltage</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>0D103088-ED27-439F-AA89-CA4D12F63583</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\Voltage.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Current</eng>
+        <loc>Current</loc>
+      </Name>
+      <ExcludeFromAlphabeticalOrder>false</ExcludeFromAlphabeticalOrder>
+      <GUID>C9CA0D87-B6CA-4E61-BDC4-EF445D60B0A2</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\NIDMM\Windows\NIDMM System Explorer.lvlibp\Extra Pages\Current.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy/>
+  </CustomXML>
+
+
+
+</CustomDevice>

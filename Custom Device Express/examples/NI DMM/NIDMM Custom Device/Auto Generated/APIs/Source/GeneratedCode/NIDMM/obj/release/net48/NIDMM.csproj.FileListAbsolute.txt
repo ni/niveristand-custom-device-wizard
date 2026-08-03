@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.Veristand.NIDMM.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.Veristand.NIDMM.pdb
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.VeriStand.Compiler.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.VeriStand.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.VeriStand.SystemDefinitionAPI.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.VeriStand.SystemStorage.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\Newtonsoft.Json.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.VeriStand.XMLReader.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\bin\Release\net48\NationalInstruments.VeriStand.Internal.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NIDMM.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NIDMM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NIDMM.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NIDMM.AssemblyInfo.cs
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NIDMM.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NIDMM.csproj.Up2Date
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NationalInstruments.Veristand.NIDMM.dll
+C:\Users\User\Desktop\New CD DMM\NIDMM Custom Device\Auto Generated\APIs\Source\GeneratedCode\NIDMM\obj\release\net48\NationalInstruments.Veristand.NIDMM.pdb
