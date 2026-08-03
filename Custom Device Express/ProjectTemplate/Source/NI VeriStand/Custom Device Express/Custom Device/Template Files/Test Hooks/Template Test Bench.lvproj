@@ -11,6 +11,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="%CustomDevicename% Run Test Bench.vi" Type="VI" URL="../%CustomDeviceName% Run Test Bench.vi"/>
+		<Item Name="%CustomDeviceName% Test Bench Constants.vi" Type="VI" URL="../%CustomDeviceName% Test Bench Constants.vi"/>
 		<Item Name="%DeploymentHooksFileName%.lvlib" Type="Library" URL="../Deployment Hooks/%DeploymentHooksFileName%.lvlib"/>
 		<Item Name="%CustomDeviceEngineLibraryFileName% Engine.lvlib" Type="Library" URL="../Engine/%CustomDeviceEngineLibraryFileName% Engine.lvlib"/>
 		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Hooks/%TestHooksFileName%.lvlib"/>
