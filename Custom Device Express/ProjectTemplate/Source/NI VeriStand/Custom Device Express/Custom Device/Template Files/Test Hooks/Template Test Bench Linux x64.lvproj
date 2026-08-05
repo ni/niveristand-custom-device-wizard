@@ -66,11 +66,11 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Run Test Bench Linux x64.vi" Type="VI" URL="../Test Hooks/Test Bench/Run Test Bench Linux x64.vi"/>
-		<Item Name="Test Bench Constants Linux x64.vi" Type="VI" URL="../Test Hooks/Test Bench/Test Bench Constants Linux x64.vi"/>
+		<Item Name="Run Test Bench Linux x64.vi" Type="VI" URL="../Test Bench/Run Test Bench Linux x64.vi"/>
+		<Item Name="Test Bench Constants Linux x64.vi" Type="VI" URL="../Test Bench/Test Bench Constants Linux x64.vi"/>
 		<Item Name="%DeploymentHooksFileName%.lvlib" Type="Library" URL="../Deployment Hooks/%DeploymentHooksFileName%.lvlib"/>
 		<Item Name="%CustomDeviceEngineLibraryFileName% Engine.lvlib" Type="Library" URL="../Engine/%CustomDeviceEngineLibraryFileName% Engine.lvlib"/>
-		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Hooks/%TestHooksFileName%.lvlib"/>
+		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Bench/Test Hooks/%TestHooksFileName%.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Custom Device Engine Debug PPL" Type="Packed Library">

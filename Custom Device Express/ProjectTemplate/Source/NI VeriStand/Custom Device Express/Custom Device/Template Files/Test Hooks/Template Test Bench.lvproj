@@ -11,11 +11,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Run Test Bench.vi" Type="VI" URL="../Test Hooks/Test Bench/Run Test Bench.vi"/>
-		<Item Name="Test Bench Constants.vi" Type="VI" URL="../Test Hooks/Test Bench/Test Bench Constants.vi"/>
+		<Item Name="Run Test Bench.vi" Type="VI" URL="../Test Bench/Run Test Bench.vi"/>
+		<Item Name="Test Bench Constants.vi" Type="VI" URL="../Test Bench/Test Bench Constants.vi"/>
 		<Item Name="%DeploymentHooksFileName%.lvlib" Type="Library" URL="../Deployment Hooks/%DeploymentHooksFileName%.lvlib"/>
 		<Item Name="%CustomDeviceEngineLibraryFileName% Engine.lvlib" Type="Library" URL="../Engine/%CustomDeviceEngineLibraryFileName% Engine.lvlib"/>
-		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Hooks/%TestHooksFileName%.lvlib"/>
+		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Bench/Test Hooks/%TestHooksFileName%.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Deployment Hooks Debug PPL" Type="Packed Library">
