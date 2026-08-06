@@ -1,0 +1,302 @@
+{
+  "SystemMonitor": {
+    "Name": "SystemMonitor",
+    "Properties": {
+      "TargetOS": "Linux_x64",
+      "TargetRate": 100.0,
+      "Update Rate (Hz)": 10.0
+    },
+    "Sections": {
+      "CPUOverall[]": [
+        {
+          "Name": "CPU Overall",
+          "Channels": {
+            "AverageType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Average",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "MaximumType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Maximum",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ]
+          }
+        }
+      ],
+      "MemoryUsage[]": [
+        {
+          "Name": "Memory Usage",
+          "Channels": {
+            "TotalMemoryType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Total Memory",
+                "Type": "Output",
+                "Units": "kB",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "AvailableType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Available",
+                "Type": "Output",
+                "Units": "kB",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ]
+          }
+        }
+      ],
+      "CPU[]": [
+        {
+          "Name": "CPU0",
+          "Channels": {
+            "TotalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Total",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "TimeCriticalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Time Critical",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "TimedStructuresType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Timed Structures",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "HighType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "High",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "AboveNormalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Above Normal",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "NormalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Normal",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "BackgroundType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Background",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "IdleType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Idle",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "ISRType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "ISR",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ]
+          }
+        },
+        {
+          "Name": "CPU1",
+          "Channels": {
+            "TotalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Total",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "TimeCriticalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Time Critical",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "TimedStructuresType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Timed Structures",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "HighType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "High",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "AboveNormalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Above Normal",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "NormalType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Normal",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "BackgroundType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Background",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "IdleType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "Idle",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ],
+            "ISRType[]": [
+              {
+                "GroupName": "Incoming",
+                "Name": "ISR",
+                "Type": "Output",
+                "Units": "%",
+                "Faultable": false,
+                "Scalable": false,
+                "DefaultValue": 0.0,
+                "ChannelDataReference": -8
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

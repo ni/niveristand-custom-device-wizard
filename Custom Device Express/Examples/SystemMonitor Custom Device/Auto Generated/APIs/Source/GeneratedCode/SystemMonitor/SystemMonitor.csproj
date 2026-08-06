@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+          <PropertyGroup>
+            <RootNamespace>NationalInstruments.Veristand</RootNamespace>
+            <AssemblyName>NationalInstruments.Veristand.SystemMonitor</AssemblyName>
+            <TargetFramework>net48</TargetFramework>
+            <OutputType>Library</OutputType>
+          </PropertyGroup>
+          
+          <PropertyGroup>
+            <Configuration Condition="'$(Configuration)'==''">Release</Configuration>
+            <Platform Condition="'$(Platform)'==''">AnyCPU</Platform>
+          </PropertyGroup>
+           
+          <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+            <DebugSymbols>true</DebugSymbols>
+            <DebugType>full</DebugType>
+            <Optimize>false</Optimize>
+            <OutputPath>bin\Debug\</OutputPath>
+          </PropertyGroup>
+
+          <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+            <DebugSymbols>false</DebugSymbols>
+            <Optimize>true</Optimize>
+            <OutputPath>bin\Release\</OutputPath>
+          </PropertyGroup>
+
+          <ItemGroup>
+            <Reference Include="System" />
+            <Reference Include="System.ComponentModel.Composition" />
+            <Reference Include="System.Core" />
+          </ItemGroup>
+
+          <ItemGroup>
+            <Reference Include="NationalInstruments.VeriStand">
+              <HintPath>$(ProgramFiles)\National Instruments\VeriStand 2026\NationalInstruments.VeriStand.dll</HintPath>
+            </Reference>
+            <Reference Include="NationalInstruments.VeriStand.SystemDefinitionAPI">
+              <HintPath>$(ProgramFiles)\National Instruments\VeriStand 2026\NationalInstruments.VeriStand.SystemDefinitionAPI.dll</HintPath>
+            </Reference>
+            <Reference Include="NationalInstruments.VeriStand.SystemStorage">
+              <HintPath>$(ProgramFiles)\National Instruments\VeriStand 2026\NationalInstruments.VeriStand.SystemStorage.dll</HintPath>
+            </Reference>
+            <Reference Include="NationalInstruments.VeriStand.Compiler">
+              <HintPath>$(ProgramFiles)\National Instruments\VeriStand 2026\NationalInstruments.VeriStand.Compiler.dll</HintPath>
+            </Reference>
+            <Reference Include="Newtonsoft.Json">
+              <HintPath>$(ProgramFiles)\National Instruments\VeriStand 2026\Newtonsoft.Json.dll</HintPath>
+            </Reference>
+          </ItemGroup>
+        </Project>
