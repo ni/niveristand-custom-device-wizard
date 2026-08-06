@@ -72,6 +72,7 @@
 		<Item Name="%CustomDeviceEngineLibraryFileName% Engine.lvlib" Type="Library" URL="../Engine/%CustomDeviceEngineLibraryFileName% Engine.lvlib"/>
 		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Bench/Test Hooks/%TestHooksFileName%.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Hooks Debug PPL" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">%TestBenchGUID1%</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Test Hooks Debug PPL</Property>
