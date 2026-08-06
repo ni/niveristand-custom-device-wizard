@@ -10,7 +10,9 @@
 
 # Executables
 *.exe
+*.bin
 
 # Metadata
 *.aliases
 *.lvlps
+*.lvprojstate
