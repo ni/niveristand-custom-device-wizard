@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<VeriStandGeneratedCustomDeviceAPI Version="1.0.0.0">
+
+  <CustomDevice NameSpace="NationalInstruments.Veristand" TypeGuid="83C5DD7A-68C5-4260-8FC3-8ECCA1D25122" TypeName="SystemMonitor">
+    <CodeDocumentation/>
+    <Properties>
+      <Property PropertyName="Update Rate (Hz)">
+        <CodeDocumentation></CodeDocumentation>
+        <DefaultValue>
+          <Double>10.000000</Double>
+        </DefaultValue>
+      </Property>
+    </Properties>
+    <DefaultChannelNodes/>
+    <DynamicChannelNodes/>
+    <DefaultWaveformNodes/>
+    <DynamicWaveformNodes/>
+    <DefaultSectionNodes>
+      <SectionNode Name="CPU Overall" TypeName="CPUOverall"/>
+      <SectionNode Name="Memory Usage" TypeName="MemoryUsage"/></DefaultSectionNodes>
+    <DynamicSectionNodes>
+      <SectionNode TypeName="CPU"/>
+    </DynamicSectionNodes>
+  </CustomDevice>
+
+  <Channel GroupName="Incoming" TypeGuid="F5E195D5-15BE-43CE-B9CB-7BFD96D3D94F" TypeName="TotalType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="9F430B16-DD48-4CAA-8EFB-DB20984D28FA" TypeName="TimeCriticalType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="B868CB04-A9AA-4274-8106-B0000900A33D" TypeName="TimedStructuresType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="C41871EB-63AC-4B4D-921B-46C628EABA59" TypeName="HighType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="A49F6F71-1B78-4FF9-8F1D-67851094602A" TypeName="AboveNormalType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="DEC247BA-F6CE-48D8-B30F-8EF4B86ACEF8" TypeName="NormalType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="E7F093C4-5849-4FCA-96CD-BADE67CC9940" TypeName="BackgroundType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="47C2D2A1-7707-4889-A214-89237629A55C" TypeName="IdleType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="A6432BCF-CCD7-4D05-8A3B-2BDC941380E0" TypeName="ISRType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="75DCE586-A85C-4195-B00F-BDB2A0B00C2A" TypeName="AverageType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="5DD58C29-A344-44F7-9F33-268CF7DD13DE" TypeName="MaximumType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>%</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="8E28A37F-542A-41F5-B1B7-E5911C12A98B" TypeName="TotalMemoryType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>kB</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Channel GroupName="Incoming" TypeGuid="D3DF01A4-948E-402D-BB20-EE63EE952155" TypeName="AvailableType">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultValue>
+      <Elem>0</Elem>
+    </DefaultValue>
+    <Units>kB</Units>
+    <Type>Output</Type>
+    <Scalable>false</Scalable>
+    <Faultable>false</Faultable>
+  </Channel>
+
+  <Section TypeGuid="F7F852D2-14D4-40C0-9630-D9D0B24B5C74" TypeName="CPU">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultChannelNodes>
+      <ChannelNode Name="Total" TypeName="TotalType"/>
+      <ChannelNode Name="Time Critical" TypeName="TimeCriticalType"/>
+      <ChannelNode Name="Timed Structures" TypeName="TimedStructuresType"/>
+      <ChannelNode Name="High" TypeName="HighType"/>
+      <ChannelNode Name="Above Normal" TypeName="AboveNormalType"/>
+      <ChannelNode Name="Normal" TypeName="NormalType"/>
+      <ChannelNode Name="Background" TypeName="BackgroundType"/>
+      <ChannelNode Name="Idle" TypeName="IdleType"/>
+      <ChannelNode Name="ISR" TypeName="ISRType"/>
+    </DefaultChannelNodes>
+    <DynamicChannelNodes/>
+    <DefaultWaveformNodes/>
+    <DynamicWaveformNodes/>
+    <DefaultSectionNodes/>
+    <DynamicSectionNodes/>
+  </Section>
+
+  <Section TypeGuid="B1AD58B7-82B2-4510-985C-757166E6253C" TypeName="CPUOverall">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultChannelNodes>
+      <ChannelNode Name="Average" TypeName="AverageType"/>
+      <ChannelNode Name="Maximum" TypeName="MaximumType"/>
+    </DefaultChannelNodes>
+    <DynamicChannelNodes/>
+    <DefaultWaveformNodes/>
+    <DynamicWaveformNodes/>
+    <DefaultSectionNodes/>
+    <DynamicSectionNodes/>
+  </Section>
+
+  <Section TypeGuid="108C37EA-BB68-4392-BEE4-1A2ECD32F472" TypeName="MemoryUsage">
+    <CodeDocumentation/>
+    <Properties/>
+    <DefaultChannelNodes>
+      <ChannelNode Name="Total Memory" TypeName="TotalMemoryType"/>
+      <ChannelNode Name="Available" TypeName="AvailableType"/>
+    </DefaultChannelNodes>
+    <DynamicChannelNodes/>
+    <DefaultWaveformNodes/>
+    <DynamicWaveformNodes/>
+    <DefaultSectionNodes/>
+    <DynamicSectionNodes/>
+  </Section>
+
+  <EnumDefinitions/>
+</VeriStandGeneratedCustomDeviceAPI>
