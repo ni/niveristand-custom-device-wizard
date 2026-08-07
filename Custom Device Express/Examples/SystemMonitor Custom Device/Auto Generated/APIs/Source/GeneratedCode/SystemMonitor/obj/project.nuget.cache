@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "U6zb5GnnyYU=",
+  "success": true,
+  "projectFilePath": "C:\\SysMon1\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
