@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="26008000">
+<Project Type="Project" LVVersion="27002002">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -11,11 +12,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="%CustomDeviceEngineLibraryFileName% Engine.lvlib" Type="Library" URL="../Engine/%CustomDeviceEngineLibraryFileName% Engine.lvlib"/>
+		<Item Name="%DeploymentHooksFileName%.lvlib" Type="Library" URL="../Deployment Hooks/%DeploymentHooksFileName%.lvlib"/>
+		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Bench/Test Hooks/%TestHooksFileName%.lvlib"/>
 		<Item Name="Run Test Bench.vi" Type="VI" URL="../Test Bench/Run Test Bench.vi"/>
 		<Item Name="Test Bench Constants.vi" Type="VI" URL="../Test Bench/Test Bench Constants.vi"/>
-		<Item Name="%DeploymentHooksFileName%.lvlib" Type="Library" URL="../Deployment Hooks/%DeploymentHooksFileName%.lvlib"/>
-		<Item Name="%CustomDeviceEngineLibraryFileName% Engine.lvlib" Type="Library" URL="../Engine/%CustomDeviceEngineLibraryFileName% Engine.lvlib"/>
-		<Item Name="%TestHooksFileName%.lvlib" Type="Library" URL="../Test Bench/Test Hooks/%TestHooksFileName%.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Hooks Debug PPL" Type="Packed Library">

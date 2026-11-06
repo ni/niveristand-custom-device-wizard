@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="26008000">
+<Project Type="Project" LVVersion="27002002">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -46,10 +47,10 @@
 			<Item Name="Configuration Release PPL" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">%ConfigurationPPLGUID1%</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Release PPL</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">false</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">false</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows/Adapter</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">false</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">%ConfigurationPPLGUID2%</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">%ConfigurationPPLFileName%</Property>

@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="26008000">
-	<Property Name="NI.LV.All.SaveVersion" Type="Str">26.0</Property>
+<Project Type="Project" LVVersion="27002002">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -15,9 +15,9 @@
 		<Item Name="Help" Type="Folder" URL="../Help">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="%SystemExplorerFileName%.lvlib" Type="Library" URL="../%SystemExplorerFileName%.lvlib"/>
 		<Item Name="%XMLCustomDeviceFileName%" Type="Document" URL="../../../%XMLCustomDeviceFileName%"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
-		<Item Name="%SystemExplorerFileName%.lvlib" Type="Library" URL="../%SystemExplorerFileName%.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="System Explorer Release PPL" Type="Packed Library">

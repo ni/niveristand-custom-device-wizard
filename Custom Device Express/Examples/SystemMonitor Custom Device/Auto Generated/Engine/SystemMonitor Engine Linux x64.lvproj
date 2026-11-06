@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="26008000">
-		<Item Name="My Computer" Type="My Computer">
+<Project Type="Project" LVVersion="27002002">
+	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -34,6 +34,11 @@
 		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
 		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
+		<Property Name="target.RemotePanel.ControlPortEnabled" Type="Bool">false</Property>
+		<Property Name="target.RemotePanel.ControlTcpPort" Type="Int">3584</Property>
+		<Property Name="target.RemotePanel.ViAccess" Type="Str">+*</Property>
+		<Property Name="target.RemotePanel.ViewPortEnabled" Type="Bool">false</Property>
+		<Property Name="target.RemotePanel.ViewTcpPort" Type="Int">3583</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
@@ -65,24 +70,24 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
-		<Item Name="SystemMonitor Engine.lvlib" Type="Library" URL="../SystemMonitor Engine.lvlib"/>
-		<Item Name="Custom Device Interfaces_v1.lvlibp" Type="LVLibp" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp">
+		<Item Name="Custom Device Interfaces_v1.lvlibp" Type="LVLibp" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp">
 			<Item Name="Custom Device" Type="Folder">
-				<Item Name="Custom Device.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/CustomDevice/Custom Device.lvclass"/>
+				<Item Name="Custom Device.lvclass" Type="LVClass" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp/CustomDevice/Custom Device.lvclass"/>
 			</Item>
 			<Item Name="Custom Device API" Type="Folder">
-				<Item Name="Custom Device API.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/CustomDeviceAPI/Custom Device API.lvclass"/>
+				<Item Name="Custom Device API.lvclass" Type="LVClass" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp/CustomDeviceAPI/Custom Device API.lvclass"/>
 			</Item>
 			<Item Name="Custom Device Deployment Hooks" Type="Folder">
-				<Item Name="Custom Device Deployment Hooks.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/CustomDeviceDeploymentHooks/Custom Device Deployment Hooks.lvclass"/>
+				<Item Name="Custom Device Deployment Hooks.lvclass" Type="LVClass" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp/CustomDeviceDeploymentHooks/Custom Device Deployment Hooks.lvclass"/>
 			</Item>
 			<Item Name="Utility" Type="Folder">
-				<Item Name="Custom Device Utility.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/Utility/Custom Device Utility.lvclass"/>
+				<Item Name="Custom Device Utility.lvclass" Type="LVClass" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp/Utility/Custom Device Utility.lvclass"/>
 			</Item>
-			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
-			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
-			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../../../../../../../../Program Files/NI/LVAddons/nivscustomdeviceexpress/1/Targets/NI/RT/Linux/PXI/user.lib/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 		</Item>
+		<Item Name="SystemMonitor Engine.lvlib" Type="Library" URL="../SystemMonitor Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release PPL" Type="Packed Library">
