@@ -18,8 +18,6 @@ stages:
     parameters:
       stageName: Build_Wizard
       lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
         - version: '2025'
           bitness: '64bit'
         - version: '2026'
@@ -47,8 +45,6 @@ stages:
           target: 'My Computer'
           buildSpec: 'Configuration Source'
           exclusions:
-            - version: '2024'
-              bitness: '64bit'
             - version: '2025'
               bitness: '64bit'
           postBuildScript: |
