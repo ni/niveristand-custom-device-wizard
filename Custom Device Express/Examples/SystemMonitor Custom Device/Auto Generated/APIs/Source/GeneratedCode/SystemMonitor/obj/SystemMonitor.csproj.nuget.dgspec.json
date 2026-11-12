@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SysMon1\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj": {}
+    "C:\\Users\\raags\\Desktop\\New folder\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj": {}
   },
   "projects": {
-    "C:\\SysMon1\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj": {
+    "C:\\Users\\raags\\Desktop\\New folder\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SysMon1\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj",
+        "projectUniqueName": "C:\\Users\\raags\\Desktop\\New folder\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj",
         "projectName": "NationalInstruments.Veristand.SystemMonitor",
-        "projectPath": "C:\\SysMon1\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\SysMon1\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\obj\\",
+        "projectPath": "C:\\Users\\raags\\Desktop\\New folder\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\SystemMonitor.csproj",
+        "packagesPath": "C:\\Users\\raags\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raags\\Desktop\\New folder\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\SysMon1\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\NuGet.Config",
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\raags\\Desktop\\New folder\\SystemMonitor Custom Device\\Auto Generated\\APIs\\Source\\GeneratedCode\\SystemMonitor\\NuGet.Config",
+          "C:\\Users\\raags\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -51,7 +51,7 @@
               "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.423\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.425\\RuntimeIdentifierGraph.json"
         }
       }
     }

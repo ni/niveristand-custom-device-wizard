@@ -38,6 +38,11 @@
 		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
 		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
+		<Property Name="target.RemotePanel.ControlPortEnabled" Type="Bool">false</Property>
+		<Property Name="target.RemotePanel.ControlTcpPort" Type="Int">3584</Property>
+		<Property Name="target.RemotePanel.ViAccess" Type="Str">+*</Property>
+		<Property Name="target.RemotePanel.ViewPortEnabled" Type="Bool">false</Property>
+		<Property Name="target.RemotePanel.ViewTcpPort" Type="Int">3583</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
@@ -57,32 +62,23 @@
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
-
 NI.ServerName default
 DocumentRoot "$LVSERVER_DOCROOT"
 TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
 DirectoryIndex index.htm
 WorkerLimit 10
 InactivityTimeout 60
-
 LoadModulePath "$LVSERVER_MODULEPATHS"
 LoadModule LVAuth lvauthmodule
 LoadModule LVRFP lvrfpmodule
-
 #
 # Pipeline Definition
 #
-
 SetConnector netConnector
-
 AddHandler LVAuth
 AddHandler LVRFP
-
 AddHandler fileHandler ""
-
 AddOutputFilter chunkFilter
-
-
 </Property>
 		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
 		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>

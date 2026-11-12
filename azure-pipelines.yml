@@ -19,11 +19,7 @@ stages:
     parameters:
       stageName: Build_Wizard
       lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
-        - version: '2026'
+        - version: '2027'
           bitness: '64bit'
 
       buildSteps:
@@ -47,11 +43,6 @@ stages:
           buildOperation: 'ExecuteBuildSpec'
           target: 'My Computer'
           buildSpec: 'Configuration Source'
-          exclusions:
-            - version: '2024'
-              bitness: '64bit'
-            - version: '2025'
-              bitness: '64bit'
           postBuildScript: |
             $dst = "$(CD.Workspace)\$(CD.Repository)\BuildOutput"
             New-Item -ItemType Directory -Force -Path $dst | Out-Null
@@ -59,9 +50,9 @@ stages:
             if ($LASTEXITCODE -ge 8) { throw "robocopy failed with exit code $LASTEXITCODE" }
             $global:LASTEXITCODE = 0
 
-      releaseVersion: '26.5.0'
+      releaseVersion: '27.0.0'
       buildOutputLocation: 'BuildOutput'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\niveristand-custom-device-wizard'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\niveristand-custom-device-wizard'
 
       packages:
         - controlFileName: 'control_custom_device_wizard'

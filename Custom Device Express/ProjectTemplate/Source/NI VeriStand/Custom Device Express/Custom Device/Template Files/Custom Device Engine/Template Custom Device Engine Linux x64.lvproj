@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="26008000">
+<Project Type="Project" LVVersion="27002002">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -11,6 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="%DeploymentHooksFileName%.lvlib" Type="Library" URL="../Deployment Hooks/%DeploymentHooksFileName%.lvlib"/>
+		<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Shared/Compiled.Settings.ctl"/>
 		<Item Name="Custom Device Interfaces_v1.lvlibp" Type="LVLibp" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp">
 			<Item Name="Custom Device" Type="Folder">
 				<Item Name="Custom Device.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/CustomDevice/Custom Device.lvclass"/>
@@ -28,8 +31,6 @@
 			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
 			<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;userlib&gt;/Custom Device Interfaces_v1.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 		</Item>
-		<Item Name="%DeploymentHooksFileName%.lvlib" Type="Library" URL="../Deployment Hooks/%DeploymentHooksFileName%.lvlib"/>
-		<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Shared/Compiled.Settings.ctl"/>
 		<Item Name="Debug PPL Post-Build Action.vi" Type="VI" URL="../Engine/BuildVIs/Debug PPL Post-Build Action.vi"/>
 		<Item Name="Debug PPL Pre-Build Action.vi" Type="VI" URL="../Engine/BuildVIs/Debug PPL Pre-Build Action.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
