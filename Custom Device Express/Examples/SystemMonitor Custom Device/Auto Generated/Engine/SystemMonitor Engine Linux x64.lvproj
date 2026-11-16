@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="27002002">
+<Project Type="Project" LVVersion="27002005">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -91,10 +91,8 @@
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release PPL" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">false</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">2884A8AA-5E49-47C5-BFE8-284AE542EB3E</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release PPL</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">false</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds</Property>
@@ -103,7 +101,7 @@
 				<Property Name="Bld_targetDestDir" Type="Path">/SystemMonitor/Linux_x64/Adapter</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SystemMonitor Engine Linux64.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/SystemMonitor//Linux_x64/Adapter/SystemMonitor Engine Linux64.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/SystemMonitor/Linux_x64/Adapter/SystemMonitor Engine Linux64.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -111,7 +109,7 @@
 				<Property Name="Destination[1].path" Type="Path">/SystemMonitor/Linux_x64/Adapter</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">0309D5BD-9DA1-4E8C-8FE5-E09887421F5B</Property>
+				<Property Name="Source[0].itemID" Type="Str">{28E8926A-6455-43E6-A1EB-F901CC2A99F3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/SystemMonitor Engine.lvlib</Property>
@@ -121,9 +119,6 @@
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target/Custom Device Interfaces_v1.lvlibp</Property>
-				<Property Name="Source[2].preventRename" Type="Bool">true</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI (now part of Emerson)</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Engine Release PPL</Property>

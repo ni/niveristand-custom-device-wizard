@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="27002002">
+<Project Type="Project" LVVersion="27002005">
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -33,23 +33,23 @@
 				<Property Name="Bld_previewCacheID" Type="Str">52988A04-2EF4-4DB4-996E-83A0514F2245</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SystemMonitor System Explorer.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows/SystemMonitor System Explorer.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">Absolute</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows</Property>
-				<Property Name="Destination[1].path.type" Type="Str">Absolute</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Common Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor</Property>
-				<Property Name="Destination[2].path.type" Type="Str">Absolute</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].destName" Type="Str">Page Help</Property>
 				<Property Name="Destination[3].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows/Page Help</Property>
-				<Property Name="Destination[3].path.type" Type="Str">Absolute</Property>
+				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">35192CC6-7A7C-46C3-901C-73D55D329B24</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1078545B-A92D-48C6-82AB-F43DA413B7D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SystemMonitor System Explorer.lvlib</Property>

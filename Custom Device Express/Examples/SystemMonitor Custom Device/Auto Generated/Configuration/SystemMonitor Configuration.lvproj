@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="27002002">
+<Project Type="Project" LVVersion="27002005">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -46,6 +46,7 @@
 			<Item Name="Configuration Release PPL" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">171F1E23-F103-488E-9287-ECA1E8E7061E</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Release PPL</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows/Adapter</Property>
@@ -53,19 +54,19 @@
 				<Property Name="Bld_previewCacheID" Type="Str">D1DCD46A-EDFC-431F-8433-A4012527DF06</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SystemMonitor Configuration.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows/Adapter/SystemMonitor Configuration.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">Absolute</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows/Adapter/NI_AB_PROJECTNAME.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor/Windows/Adapter</Property>
-				<Property Name="Destination[1].path.type" Type="Str">Absolute</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Common Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">/C/SysMon1/SystemMonitor Custom Device/Builds/SystemMonitor</Property>
-				<Property Name="Destination[2].path.type" Type="Str">Absolute</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">BF9515AF-8C3D-4A7C-8614-03EC6B2117C4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{13F1DC37-4A87-4EDE-9266-96EE2A31C0FA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SystemMonitor Configuration.lvlib</Property>
@@ -78,9 +79,6 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Custom Device SystemMonitor.xml</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Custom Device Interfaces_v1.lvlibp</Property>
-				<Property Name="Source[3].preventRename" Type="Bool">true</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI (now part of Emerson)</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Configuration Release PPL</Property>

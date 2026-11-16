@@ -47,6 +47,7 @@
 			<Item Name="Configuration Release PPL" Type="Packed Library">
 				<Property Name="Bld_buildCacheID" Type="Str">%ConfigurationPPLGUID1%</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Release PPL</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">false</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">false</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/%CDFolderPath/Builds/%CustomDeviceName%/Windows/Adapter</Property>
